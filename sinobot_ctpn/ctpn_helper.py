@@ -27,6 +27,8 @@ def resize_image(img):
 
     re_im = cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
     return re_im, (new_h / img_size[0], new_w / img_size[1])
+# def get_ctpn_boxes_without_tf(img):
+
 
 def get_ctpn_boxes(table_img):
     with tf.get_default_graph().as_default():

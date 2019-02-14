@@ -9,6 +9,8 @@ from sinobot_ctpn.nets import model_train as model
 import numpy as np
 from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from sinobot_ctpn.utils.text_connector.detectors import TextDetector
+tf.app.flags.DEFINE_string('gpu', '0', '')
+tf.app.flags.DEFINE_string('checkpoint_path', '/home/luhya/Documents/src/myctpn/checkpoints_mlt/', '')
 FLAGS = tf.app.flags.FLAGS
 
 def resize_image(img):

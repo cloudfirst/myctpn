@@ -1,11 +1,11 @@
 # -*- coding:utf-8 -*-
 import numpy as np
 import numpy.random as npr
-from utils.bbox.bbox import bbox_overlaps
+from sinobot_ctpn.utils.bbox.bbox import bbox_overlaps
 
-from utils.bbox.bbox_transform import bbox_transform
-from utils.rpn_msr.config import Config as cfg
-from utils.rpn_msr.generate_anchors import generate_anchors
+from sinobot_ctpn.utils.bbox.bbox_transform import bbox_transform
+from sinobot_ctpn.utils.rpn_msr.config import Config as cfg
+from sinobot_ctpn.utils.rpn_msr.generate_anchors import generate_anchors
 
 DEBUG = False
 

@@ -1,7 +1,7 @@
 import numpy as np
 
-from utils.text_connector.other import clip_boxes
-from utils.text_connector.text_proposal_graph_builder import TextProposalGraphBuilder
+from sinobot_ctpn.utils.text_connector.other import clip_boxes
+from sinobot_ctpn.utils.text_connector.text_proposal_graph_builder import TextProposalGraphBuilder
 
 
 class TextProposalConnector:

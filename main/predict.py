@@ -10,13 +10,13 @@ import numpy as np
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
-from nets import model_train as model
-from utils.rpn_msr.proposal_layer import proposal_layer
-from utils.text_connector.detectors import TextDetector
+from sinobot_ctpn.nets import model_train as model
+from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
+from sinobot_ctpn.utils.text_connector.detectors import TextDetector
 
-tf.app.flags.DEFINE_string('test_data_path', '/tmp/demo/', '')
+# tf.app.flags.DEFINE_string('test_data_path', '/tmp/demo/', '')
 #tf.app.flags.DEFINE_string('test_data_path', 'data/demo/', '')
-#tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/biao_zhun_ti_xi/tabel', '')
+tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/Desktop/vggtest', '')
 #tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/handwriting/tabel', '')
 #tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/luo_ma_ti_cu/tabel', '')
 
@@ -97,6 +97,7 @@ def main(argv=None):
         saver = tf.train.Saver(variable_averages.variables_to_restore())
 
         with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
+            tf.get_variable_scope().reuse_variables()
             ckpt_state = tf.train.get_checkpoint_state(FLAGS.checkpoint_path)
             model_path = os.path.join(FLAGS.checkpoint_path, os.path.basename(ckpt_state.model_checkpoint_path))
             print('Restore from {}'.format(model_path))

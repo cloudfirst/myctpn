@@ -32,6 +32,7 @@ def resize_image(img):
 
 
 def get_ctpn_boxes(table_img):
+    tf.reset_default_graph()
     with tf.get_default_graph().as_default():
         input_image = tf.placeholder(tf.float32, shape=[None, None, None, 3], name='input_image')
         input_im_info = tf.placeholder(tf.float32, shape=[None, 3], name='input_im_info')

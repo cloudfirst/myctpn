@@ -9,8 +9,9 @@ from sinobot_ctpn.nets import model_train as model
 import numpy as np
 from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from sinobot_ctpn.utils.text_connector.detectors import TextDetector
-tf.app.flags.DEFINE_string('checkpoint_path', '/usr/share/ctpn/model/', '')
-FLAGS = tf.app.flags.FLAGS
+# tf.app.flags.DEFINE_string('checkpoint_path', '/usr/share/ctpn/model/', '')
+# FLAGS = tf.app.flags.FLAGS
+CTPN_MODEL_PATH = "/usr/share/ctpn/model/"
 
 def resize_image(img):
     img_size = img.shape
@@ -46,8 +47,8 @@ def get_ctpn_boxes(table_img):
 
         with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
             start = time.time()
-            ckpt_state = tf.train.get_checkpoint_state(FLAGS.checkpoint_path)
-            model_path = os.path.join(FLAGS.checkpoint_path, os.path.basename(ckpt_state.model_checkpoint_path))
+            ckpt_state = tf.train.get_checkpoint_state(CTPN_MODEL_PATH)
+            model_path = os.path.join(CTPN_MODEL_PATH, os.path.basename(ckpt_state.model_checkpoint_path))
             print('Restore from {}'.format(model_path))
             saver.restore(sess, model_path)
             img, (rh, rw) = resize_image(table_img)

@@ -164,7 +164,7 @@ def main(argv=None):
                 print('Write model to: {:s}'.format(filename))
 
             #################### validation by raymond #################
-            if FLAGS.early_stopping_enabled and (iter + 1) % FLAGS.early_stopping_frequency == 0 and step >= FLAGS.early_stopping_step_lower_bound:
+            if FLAGS.early_stopping_enabled and (step + 1) % FLAGS.early_stopping_frequency == 0 and step >= FLAGS.early_stopping_step_lower_bound:
                 print("Checking early stopping model")
 
                 accuracy = validate(FLAGS.val_path, predictor)
@@ -195,7 +195,7 @@ def main(argv=None):
                         print("Found better model with accuracy of {:%}".format(early_stopping_best_accuracy))
                     else:
                         early_stopping_best_cur_nbest += 1
-                        print("No better model found. Currently accuracy of {:%} at iter {} (remaining nbest = {})".
+                        print("No better model found. Currently accuracy of {:%} at step {} (remaining nbest = {})".
                               format(early_stopping_best_accuracy, early_stopping_best_at_iter,
                                      FLAGS.early_stopping_nbest - early_stopping_best_cur_nbest))
 

@@ -6,6 +6,7 @@ import time
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
+from validation.calamari_utils import init_calamary
 from validation.validate import validate
 from tensorflow.contrib import slim
 from sinobot_ctpn.nets import model_train as model
@@ -38,6 +39,16 @@ tf.app.flags.DEFINE_boolean('early_stopping_enabled', True, '')
 tf.app.flags.DEFINE_float('early_stopping_suc_lower_bound', 0.3, '')
 tf.app.flags.DEFINE_integer('early_stopping_step_lower_bound', 20, '')
 tf.app.flags.DEFINE_string('val_path', "./data/dataset/validation", '')
+
+
+def del_file(path):
+    ls = os.listdir(path)
+    for i in ls:
+        c_path = os.path.join(path, i)
+        if os.path.isdir(c_path):
+            del_file(c_path)
+        else:
+            os.remove(c_path)
 
 #################### validation finished #################
 
@@ -125,6 +136,7 @@ def main(argv=None):
         early_stopping_best_at_iter = 0
         early_stopping_best_accuracy = 0.0
         early_stopping_best_cur_nbest = 0
+        predictor = init_calamary()
         #################### validation finished #################
 
         for step in range(restore_step, FLAGS.max_steps):
@@ -155,10 +167,16 @@ def main(argv=None):
             if FLAGS.early_stopping_enabled and (iter + 1) % FLAGS.early_stopping_frequency == 0 and step >= FLAGS.early_stopping_step_lower_bound:
                 print("Checking early stopping model")
 
-                accuracy = validate(FLAGS.val_path)
+                accuracy = validate(FLAGS.val_path, predictor)
                 print('accuracy: {!s} at step: {!s}'.format(accuracy, step))
 
                 if accuracy > FLAGS.early_stopping_suc_lower_bound:
+
+                    del_file(FLAGS.best_checkpoint_path):
+                    filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
+                    filename = os.path.join(FLAGS.best_checkpoint_path, filename)
+                    saver.save(sess, filename)
+
                     if accuracy > early_stopping_best_accuracy: 
                         early_stopping_best_accuracy = accuracy
                         early_stopping_best_cur_nbest = 1
@@ -173,6 +191,7 @@ def main(argv=None):
                         )
                         '''
 
+                        del_file(FLAGS.best_checkpoint_path):
                         filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
                         filename = os.path.join(FLAGS.best_checkpoint_path, filename)
                         saver.save(sess, filename)
@@ -187,13 +206,24 @@ def main(argv=None):
 
                     if accuracy > 0 and early_stopping_best_cur_nbest >= FLAGS.early_stopping_nbest:
                         print("Early stopping now.")
+
+                        del_file(FLAGS.best_checkpoint_path):
+                        filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
+                        filename = os.path.join(FLAGS.best_checkpoint_path, filename)
+                        saver.save(sess, filename)
+
                         break
 
                         if accuracy >= 1:
                             print("Reached perfect score on validation set. Early stopping now.")
+
+                            del_file(FLAGS.best_checkpoint_path):
+                            filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
+                            filename = os.path.join(FLAGS.best_checkpoint_path, filename)
+                            saver.save(sess, filename)
+
                             break
             #################### validation finished #################
-
 
 if __name__ == '__main__':
     tf.app.run()

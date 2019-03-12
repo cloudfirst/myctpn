@@ -44,13 +44,22 @@ def get_real_text_list(text_list, line_num_list):
         
     return real_text_list
 
-def calamari_apply_ocr(img_list):
+def init_calamary():
+    # get model
+    checkpoint = get_model()
+
+    # predict for all models
+    predictor = Sinobot_Predictor(checkpoints=checkpoint, batch_size=1, processes=1)
+
+    return predictor
+
+def calamari_apply_ocr(img_list, predictor):
 
     # pre-treat of input img_list
     real_img_list, line_num_list = get_real_img_list(img_list)
     
     # get model
-    checkpoint = get_model()
+    #checkpoint = get_model()
 
     # create voter
     voter_params = VoterParams()
@@ -58,7 +67,7 @@ def calamari_apply_ocr(img_list):
     voter = voter_from_proto(voter_params)
 
     # predict for all models
-    predictor = Sinobot_Predictor(checkpoints=checkpoint, batch_size=1, processes=1)
+    #predictor = Sinobot_Predictor(checkpoints=checkpoint, batch_size=1, processes=1)
     do_prediction = predictor.sinobot_batch_predict_dataset(real_img_list, progress_bar=True)
 
     avg_sentence_confidence = 0

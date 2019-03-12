@@ -460,7 +460,7 @@ def step_3_find_text_lines_v2(table, filename):
     new_text_blocks = get_text_blocks_by_opencv_v2(img, boxes) 
     return new_text_blocks
 
-def step_4_read_keyword_and_value_v2(text_blocks):
+def step_4_read_keyword_and_value_v2(text_blocks, predictor):
     heji_number = []
     ztgz = ""
 
@@ -481,7 +481,7 @@ def step_4_read_keyword_and_value_v2(text_blocks):
             to_be_ocred_line.append(new_block_img)
         to_be_ocred_table.append(to_be_ocred_line)
     
-    raw_table_line_texts = calamari_apply_ocr(to_be_ocred_table)
+    raw_table_line_texts = calamari_apply_ocr(to_be_ocred_table, predictor)
 
     print("================recogonition text===============")
     # second, scan each line's text to find value of ztgz

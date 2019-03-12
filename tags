@@ -1,0 +1,1577 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASE	sinobot_ctpn/utils/bbox/bbox.c	60;"	d	file:
+BASE	sinobot_ctpn/utils/bbox/nms.c	60;"	d	file:
+Bilstm	sinobot_ctpn/nets/model_train.py	/^def Bilstm(net, input_channel, hidden_unit_num, output_channel, scope_name):$/;"	f
+CTPN_MODEL_PATH	sinobot_ctpn/ctpn_helper.py	/^CTPN_MODEL_PATH = "\/usr\/share\/ctpn\/model\/"$/;"	v
+CYTHON_ABI	sinobot_ctpn/utils/bbox/bbox.c	19;"	d	file:
+CYTHON_ABI	sinobot_ctpn/utils/bbox/nms.c	19;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/bbox.c	501;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/bbox.c	503;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/bbox.c	505;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/nms.c	501;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/nms.c	503;"	d	file:
+CYTHON_CCOMPLEX	sinobot_ctpn/utils/bbox/nms.c	505;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	sinobot_ctpn/utils/bbox/bbox.c	49;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	sinobot_ctpn/utils/bbox/bbox.c	52;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	sinobot_ctpn/utils/bbox/nms.c	49;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	sinobot_ctpn/utils/bbox/nms.c	52;"	d	file:
+CYTHON_COMPILING_IN_PYPY	sinobot_ctpn/utils/bbox/bbox.c	48;"	d	file:
+CYTHON_COMPILING_IN_PYPY	sinobot_ctpn/utils/bbox/bbox.c	51;"	d	file:
+CYTHON_COMPILING_IN_PYPY	sinobot_ctpn/utils/bbox/nms.c	48;"	d	file:
+CYTHON_COMPILING_IN_PYPY	sinobot_ctpn/utils/bbox/nms.c	51;"	d	file:
+CYTHON_FORMAT_SSIZE_T	sinobot_ctpn/utils/bbox/bbox.c	67;"	d	file:
+CYTHON_FORMAT_SSIZE_T	sinobot_ctpn/utils/bbox/nms.c	67;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/bbox.c	227;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/bbox.c	229;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/bbox.c	231;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/bbox.c	233;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/nms.c	227;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/nms.c	229;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/nms.c	231;"	d	file:
+CYTHON_INLINE	sinobot_ctpn/utils/bbox/nms.c	233;"	d	file:
+CYTHON_NCP_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	308;"	d	file:
+CYTHON_NCP_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	310;"	d	file:
+CYTHON_NCP_UNUSED	sinobot_ctpn/utils/bbox/nms.c	308;"	d	file:
+CYTHON_NCP_UNUSED	sinobot_ctpn/utils/bbox/nms.c	310;"	d	file:
+CYTHON_PEP393_ENABLED	sinobot_ctpn/utils/bbox/bbox.c	102;"	d	file:
+CYTHON_PEP393_ENABLED	sinobot_ctpn/utils/bbox/bbox.c	92;"	d	file:
+CYTHON_PEP393_ENABLED	sinobot_ctpn/utils/bbox/nms.c	102;"	d	file:
+CYTHON_PEP393_ENABLED	sinobot_ctpn/utils/bbox/nms.c	92;"	d	file:
+CYTHON_REFNANNY	sinobot_ctpn/utils/bbox/bbox.c	824;"	d	file:
+CYTHON_REFNANNY	sinobot_ctpn/utils/bbox/nms.c	815;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/bbox.c	214;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/bbox.c	216;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/bbox.c	218;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/bbox.c	220;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/nms.c	214;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/nms.c	216;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/nms.c	218;"	d	file:
+CYTHON_RESTRICT	sinobot_ctpn/utils/bbox/nms.c	220;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	296;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	298;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	301;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/bbox.c	303;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/nms.c	296;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/nms.c	298;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/nms.c	301;"	d	file:
+CYTHON_UNUSED	sinobot_ctpn/utils/bbox/nms.c	303;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	sinobot_ctpn/utils/bbox/bbox.c	55;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	sinobot_ctpn/utils/bbox/nms.c	55;"	d	file:
+CYTHON_WITHOUT_ASSERTIONS	sinobot_ctpn/utils/bbox/bbox.c	290;"	d	file:
+CYTHON_WITHOUT_ASSERTIONS	sinobot_ctpn/utils/bbox/nms.c	290;"	d	file:
+Config	sinobot_ctpn/utils/rpn_msr/config.py	/^class Config:$/;"	c
+Config	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^class Config:$/;"	c
+DATA_FOLDER	sinobot_ctpn/utils/dataset/data_provider.py	/^DATA_FOLDER = "data\/dataset\/mlt\/"$/;"	v
+DATA_FOLDER	sinobot_ctpn/utils/prepare/split_label.py	/^DATA_FOLDER = "\/media\/D\/DataSet\/mlt_selected\/"$/;"	v
+DEBUG	sinobot_ctpn/utils/rpn_msr/anchor_target_layer.py	/^DEBUG = False$/;"	v
+DEBUG	sinobot_ctpn/utils/rpn_msr/proposal_layer.py	/^DEBUG = False$/;"	v
+DECREF	sinobot_ctpn/utils/bbox/bbox.c	/^    void (*DECREF)(void*, PyObject*, int);$/;"	m	struct:__anon36	file:
+DECREF	sinobot_ctpn/utils/bbox/nms.c	/^    void (*DECREF)(void*, PyObject*, int);$/;"	m	struct:__anon8	file:
+DL_EXPORT	sinobot_ctpn/utils/bbox/bbox.c	39;"	d	file:
+DL_EXPORT	sinobot_ctpn/utils/bbox/nms.c	39;"	d	file:
+DL_IMPORT	sinobot_ctpn/utils/bbox/bbox.c	36;"	d	file:
+DL_IMPORT	sinobot_ctpn/utils/bbox/nms.c	36;"	d	file:
+DTYPE	sinobot_ctpn/utils/bbox/bbox.pyx	/^DTYPE = np.float$/;"	v
+EPS	sinobot_ctpn/utils/rpn_msr/config.py	/^    EPS = 1e-14$/;"	v	class:Config
+FLAGS	main/demo.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	main/predict.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	main/train.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FinishContext	sinobot_ctpn/utils/bbox/bbox.c	/^    void (*FinishContext)(void**);$/;"	m	struct:__anon36	file:
+FinishContext	sinobot_ctpn/utils/bbox/nms.c	/^    void (*FinishContext)(void**);$/;"	m	struct:__anon8	file:
+GIVEREF	sinobot_ctpn/utils/bbox/bbox.c	/^    void (*GIVEREF)(void*, PyObject*, int);$/;"	m	struct:__anon36	file:
+GIVEREF	sinobot_ctpn/utils/bbox/nms.c	/^    void (*GIVEREF)(void*, PyObject*, int);$/;"	m	struct:__anon8	file:
+GOTREF	sinobot_ctpn/utils/bbox/bbox.c	/^    void (*GOTREF)(void*, PyObject*, int);$/;"	m	struct:__anon36	file:
+GOTREF	sinobot_ctpn/utils/bbox/nms.c	/^    void (*GOTREF)(void*, PyObject*, int);$/;"	m	struct:__anon8	file:
+GeneratorEnqueuer	sinobot_ctpn/utils/dataset/data_util.py	/^class GeneratorEnqueuer():$/;"	c
+Graph	sinobot_ctpn/utils/text_connector/other.py	/^class Graph:$/;"	c
+INCREF	sinobot_ctpn/utils/bbox/bbox.c	/^    void (*INCREF)(void*, PyObject*, int);$/;"	m	struct:__anon36	file:
+INCREF	sinobot_ctpn/utils/bbox/nms.c	/^    void (*INCREF)(void*, PyObject*, int);$/;"	m	struct:__anon8	file:
+IS_UNSIGNED	sinobot_ctpn/utils/bbox/bbox.c	527;"	d	file:
+IS_UNSIGNED	sinobot_ctpn/utils/bbox/nms.c	527;"	d	file:
+LINE_MIN_SCORE	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    LINE_MIN_SCORE = 0.9$/;"	v	class:Config
+MASK	sinobot_ctpn/utils/bbox/bbox.c	61;"	d	file:
+MASK	sinobot_ctpn/utils/bbox/nms.c	61;"	d	file:
+MAX_HORIZONTAL_GAP	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    MAX_HORIZONTAL_GAP = 50$/;"	v	class:Config
+MAX_LEN	sinobot_ctpn/utils/prepare/split_label.py	/^MAX_LEN = 1200$/;"	v
+MIN_LEN	sinobot_ctpn/utils/prepare/split_label.py	/^MIN_LEN = 600$/;"	v
+MIN_NUM_PROPOSALS	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    MIN_NUM_PROPOSALS = 2$/;"	v	class:Config
+MIN_RATIO	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    MIN_RATIO = 0.5$/;"	v	class:Config
+MIN_SIZE_SIM	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    MIN_SIZE_SIM = 0.7$/;"	v	class:Config
+MIN_V_OVERLAPS	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    MIN_V_OVERLAPS = 0.7$/;"	v	class:Config
+OUTPUT	sinobot_ctpn/utils/prepare/split_label.py	/^OUTPUT = "data\/dataset\/mlt\/"$/;"	v
+PY_LONG_LONG	sinobot_ctpn/utils/bbox/bbox.c	42;"	d	file:
+PY_LONG_LONG	sinobot_ctpn/utils/bbox/nms.c	42;"	d	file:
+PY_SSIZE_T_CLEAN	sinobot_ctpn/utils/bbox/bbox.c	12;"	d	file:
+PY_SSIZE_T_CLEAN	sinobot_ctpn/utils/bbox/nms.c	12;"	d	file:
+PyBaseString_Type	sinobot_ctpn/utils/bbox/bbox.c	144;"	d	file:
+PyBaseString_Type	sinobot_ctpn/utils/bbox/nms.c	144;"	d	file:
+PyBoolObject	sinobot_ctpn/utils/bbox/bbox.c	179;"	d	file:
+PyBoolObject	sinobot_ctpn/utils/bbox/nms.c	179;"	d	file:
+PyByteArray_Check	sinobot_ctpn/utils/bbox/bbox.c	123;"	d	file:
+PyByteArray_Check	sinobot_ctpn/utils/bbox/nms.c	123;"	d	file:
+PyIntObject	sinobot_ctpn/utils/bbox/bbox.c	162;"	d	file:
+PyIntObject	sinobot_ctpn/utils/bbox/nms.c	162;"	d	file:
+PyInt_AS_LONG	sinobot_ctpn/utils/bbox/bbox.c	172;"	d	file:
+PyInt_AS_LONG	sinobot_ctpn/utils/bbox/nms.c	172;"	d	file:
+PyInt_AsLong	sinobot_ctpn/utils/bbox/bbox.c	171;"	d	file:
+PyInt_AsLong	sinobot_ctpn/utils/bbox/nms.c	171;"	d	file:
+PyInt_AsSsize_t	sinobot_ctpn/utils/bbox/bbox.c	173;"	d	file:
+PyInt_AsSsize_t	sinobot_ctpn/utils/bbox/nms.c	173;"	d	file:
+PyInt_AsUnsignedLongLongMask	sinobot_ctpn/utils/bbox/bbox.c	175;"	d	file:
+PyInt_AsUnsignedLongLongMask	sinobot_ctpn/utils/bbox/nms.c	175;"	d	file:
+PyInt_AsUnsignedLongMask	sinobot_ctpn/utils/bbox/bbox.c	174;"	d	file:
+PyInt_AsUnsignedLongMask	sinobot_ctpn/utils/bbox/nms.c	174;"	d	file:
+PyInt_Check	sinobot_ctpn/utils/bbox/bbox.c	164;"	d	file:
+PyInt_Check	sinobot_ctpn/utils/bbox/nms.c	164;"	d	file:
+PyInt_CheckExact	sinobot_ctpn/utils/bbox/bbox.c	165;"	d	file:
+PyInt_CheckExact	sinobot_ctpn/utils/bbox/nms.c	165;"	d	file:
+PyInt_FromLong	sinobot_ctpn/utils/bbox/bbox.c	168;"	d	file:
+PyInt_FromLong	sinobot_ctpn/utils/bbox/nms.c	168;"	d	file:
+PyInt_FromSize_t	sinobot_ctpn/utils/bbox/bbox.c	169;"	d	file:
+PyInt_FromSize_t	sinobot_ctpn/utils/bbox/nms.c	169;"	d	file:
+PyInt_FromSsize_t	sinobot_ctpn/utils/bbox/bbox.c	170;"	d	file:
+PyInt_FromSsize_t	sinobot_ctpn/utils/bbox/nms.c	170;"	d	file:
+PyInt_FromString	sinobot_ctpn/utils/bbox/bbox.c	166;"	d	file:
+PyInt_FromString	sinobot_ctpn/utils/bbox/nms.c	166;"	d	file:
+PyInt_FromUnicode	sinobot_ctpn/utils/bbox/bbox.c	167;"	d	file:
+PyInt_FromUnicode	sinobot_ctpn/utils/bbox/nms.c	167;"	d	file:
+PyInt_Type	sinobot_ctpn/utils/bbox/bbox.c	163;"	d	file:
+PyInt_Type	sinobot_ctpn/utils/bbox/nms.c	163;"	d	file:
+PyNumber_Int	sinobot_ctpn/utils/bbox/bbox.c	176;"	d	file:
+PyNumber_Int	sinobot_ctpn/utils/bbox/nms.c	176;"	d	file:
+PyObject_ASCII	sinobot_ctpn/utils/bbox/bbox.c	141;"	d	file:
+PyObject_ASCII	sinobot_ctpn/utils/bbox/nms.c	141;"	d	file:
+PyObject_Format	sinobot_ctpn/utils/bbox/bbox.c	126;"	d	file:
+PyObject_Format	sinobot_ctpn/utils/bbox/nms.c	126;"	d	file:
+PyObject_Free	sinobot_ctpn/utils/bbox/bbox.c	130;"	d	file:
+PyObject_Free	sinobot_ctpn/utils/bbox/nms.c	130;"	d	file:
+PyObject_Malloc	sinobot_ctpn/utils/bbox/bbox.c	129;"	d	file:
+PyObject_Malloc	sinobot_ctpn/utils/bbox/nms.c	129;"	d	file:
+PyObject_Realloc	sinobot_ctpn/utils/bbox/bbox.c	131;"	d	file:
+PyObject_Realloc	sinobot_ctpn/utils/bbox/nms.c	131;"	d	file:
+PySet_CheckExact	sinobot_ctpn/utils/bbox/bbox.c	158;"	d	file:
+PySet_CheckExact	sinobot_ctpn/utils/bbox/nms.c	158;"	d	file:
+PyStringObject	sinobot_ctpn/utils/bbox/bbox.c	145;"	d	file:
+PyStringObject	sinobot_ctpn/utils/bbox/nms.c	145;"	d	file:
+PyString_Check	sinobot_ctpn/utils/bbox/bbox.c	147;"	d	file:
+PyString_Check	sinobot_ctpn/utils/bbox/nms.c	147;"	d	file:
+PyString_CheckExact	sinobot_ctpn/utils/bbox/bbox.c	148;"	d	file:
+PyString_CheckExact	sinobot_ctpn/utils/bbox/nms.c	148;"	d	file:
+PyString_Type	sinobot_ctpn/utils/bbox/bbox.c	146;"	d	file:
+PyString_Type	sinobot_ctpn/utils/bbox/nms.c	146;"	d	file:
+PyUnicode_Contains	sinobot_ctpn/utils/bbox/bbox.c	120;"	d	file:
+PyUnicode_Contains	sinobot_ctpn/utils/bbox/nms.c	120;"	d	file:
+PyUnicode_InternFromString	sinobot_ctpn/utils/bbox/bbox.c	183;"	d	file:
+PyUnicode_InternFromString	sinobot_ctpn/utils/bbox/nms.c	183;"	d	file:
+Py_HUGE_VAL	sinobot_ctpn/utils/bbox/bbox.c	45;"	d	file:
+Py_HUGE_VAL	sinobot_ctpn/utils/bbox/nms.c	45;"	d	file:
+Py_OptimizeFlag	sinobot_ctpn/utils/bbox/bbox.c	64;"	d	file:
+Py_OptimizeFlag	sinobot_ctpn/utils/bbox/nms.c	64;"	d	file:
+Py_TPFLAGS_CHECKTYPES	sinobot_ctpn/utils/bbox/bbox.c	80;"	d	file:
+Py_TPFLAGS_CHECKTYPES	sinobot_ctpn/utils/bbox/nms.c	80;"	d	file:
+Py_TPFLAGS_HAVE_FINALIZE	sinobot_ctpn/utils/bbox/bbox.c	89;"	d	file:
+Py_TPFLAGS_HAVE_FINALIZE	sinobot_ctpn/utils/bbox/nms.c	89;"	d	file:
+Py_TPFLAGS_HAVE_INDEX	sinobot_ctpn/utils/bbox/bbox.c	83;"	d	file:
+Py_TPFLAGS_HAVE_INDEX	sinobot_ctpn/utils/bbox/nms.c	83;"	d	file:
+Py_TPFLAGS_HAVE_NEWBUFFER	sinobot_ctpn/utils/bbox/bbox.c	86;"	d	file:
+Py_TPFLAGS_HAVE_NEWBUFFER	sinobot_ctpn/utils/bbox/nms.c	86;"	d	file:
+Py_hash_t	sinobot_ctpn/utils/bbox/bbox.c	/^  typedef long Py_hash_t;$/;"	t	file:
+Py_hash_t	sinobot_ctpn/utils/bbox/nms.c	/^  typedef long Py_hash_t;$/;"	t	file:
+RPN_BATCHSIZE	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_BATCHSIZE = 300$/;"	v	class:Config
+RPN_BBOX_INSIDE_WEIGHTS	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_BBOX_INSIDE_WEIGHTS = (1.0, 1.0, 1.0, 1.0)$/;"	v	class:Config
+RPN_CLOBBER_POSITIVES	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_CLOBBER_POSITIVES = False$/;"	v	class:Config
+RPN_FG_FRACTION	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_FG_FRACTION = 0.5$/;"	v	class:Config
+RPN_MIN_SIZE	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_MIN_SIZE = 8$/;"	v	class:Config
+RPN_NEGATIVE_OVERLAP	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_NEGATIVE_OVERLAP = 0.3$/;"	v	class:Config
+RPN_NMS_THRESH	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_NMS_THRESH = 0.7$/;"	v	class:Config
+RPN_POSITIVE_OVERLAP	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_POSITIVE_OVERLAP = 0.7$/;"	v	class:Config
+RPN_POSITIVE_WEIGHT	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_POSITIVE_WEIGHT = -1.0$/;"	v	class:Config
+RPN_POST_NMS_TOP_N	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_POST_NMS_TOP_N = 1000$/;"	v	class:Config
+RPN_PRE_NMS_TOP_N	sinobot_ctpn/utils/rpn_msr/config.py	/^    RPN_PRE_NMS_TOP_N = 12000$/;"	v	class:Config
+SHIFT	sinobot_ctpn/utils/bbox/bbox.c	59;"	d	file:
+SHIFT	sinobot_ctpn/utils/bbox/nms.c	59;"	d	file:
+SetupContext	sinobot_ctpn/utils/bbox/bbox.c	/^    void* (*SetupContext)(const char*, int, const char*);$/;"	m	struct:__anon36	file:
+SetupContext	sinobot_ctpn/utils/bbox/nms.c	/^    void* (*SetupContext)(const char*, int, const char*);$/;"	m	struct:__anon8	file:
+Sinobot_Predictor	validation/calamari_utils.py	/^class Sinobot_Predictor(MultiPredictor):$/;"	c
+TEXT_PROPOSALS_MIN_SCORE	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    TEXT_PROPOSALS_MIN_SCORE = 0.7$/;"	v	class:Config
+TEXT_PROPOSALS_NMS_THRESH	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    TEXT_PROPOSALS_NMS_THRESH = 0.2$/;"	v	class:Config
+TEXT_PROPOSALS_WIDTH	sinobot_ctpn/utils/text_connector/text_connect_cfg.py	/^    TEXT_PROPOSALS_WIDTH = 16$/;"	v	class:Config
+TextDetector	sinobot_ctpn/utils/text_connector/detectors.py	/^class TextDetector:$/;"	c
+TextProposalConnector	sinobot_ctpn/utils/text_connector/text_proposal_connector.py	/^class TextProposalConnector:$/;"	c
+TextProposalConnector	sinobot_ctpn/utils/text_connector/text_proposal_connector_oriented.py	/^class TextProposalConnector:$/;"	c
+TextProposalGraphBuilder	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^class TextProposalGraphBuilder:$/;"	c
+_Complex_I	sinobot_ctpn/utils/bbox/bbox.c	516;"	d	file:
+_Complex_I	sinobot_ctpn/utils/bbox/bbox.c	517;"	d	file:
+_Complex_I	sinobot_ctpn/utils/bbox/nms.c	516;"	d	file:
+_Complex_I	sinobot_ctpn/utils/bbox/nms.c	517;"	d	file:
+_USE_MATH_DEFINES	sinobot_ctpn/utils/bbox/bbox.c	238;"	d	file:
+_USE_MATH_DEFINES	sinobot_ctpn/utils/bbox/nms.c	238;"	d	file:
+__PYX_BUF_FLAGS_PACKED_STRUCT	sinobot_ctpn/utils/bbox/bbox.c	529;"	d	file:
+__PYX_BUF_FLAGS_PACKED_STRUCT	sinobot_ctpn/utils/bbox/nms.c	529;"	d	file:
+__PYX_BUILD_PY_SSIZE_T	sinobot_ctpn/utils/bbox/bbox.c	66;"	d	file:
+__PYX_BUILD_PY_SSIZE_T	sinobot_ctpn/utils/bbox/nms.c	66;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING	sinobot_ctpn/utils/bbox/bbox.c	/^static char* __PYX_DEFAULT_STRING_ENCODING;$/;"	v	file:
+__PYX_DEFAULT_STRING_ENCODING	sinobot_ctpn/utils/bbox/bbox.c	318;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING	sinobot_ctpn/utils/bbox/nms.c	/^static char* __PYX_DEFAULT_STRING_ENCODING;$/;"	v	file:
+__PYX_DEFAULT_STRING_ENCODING	sinobot_ctpn/utils/bbox/nms.c	318;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_ASCII	sinobot_ctpn/utils/bbox/bbox.c	316;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_ASCII	sinobot_ctpn/utils/bbox/nms.c	316;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT	sinobot_ctpn/utils/bbox/bbox.c	317;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT	sinobot_ctpn/utils/bbox/nms.c	317;"	d	file:
+__PYX_ERR	sinobot_ctpn/utils/bbox/bbox.c	257;"	d	file:
+__PYX_ERR	sinobot_ctpn/utils/bbox/nms.c	257;"	d	file:
+__PYX_EXTERN_C	sinobot_ctpn/utils/bbox/bbox.c	272;"	d	file:
+__PYX_EXTERN_C	sinobot_ctpn/utils/bbox/bbox.c	274;"	d	file:
+__PYX_EXTERN_C	sinobot_ctpn/utils/bbox/nms.c	272;"	d	file:
+__PYX_EXTERN_C	sinobot_ctpn/utils/bbox/nms.c	274;"	d	file:
+__PYX_HAVE_API__bbox	sinobot_ctpn/utils/bbox/bbox.c	279;"	d	file:
+__PYX_HAVE_API__nms	sinobot_ctpn/utils/bbox/nms.c	279;"	d	file:
+__PYX_HAVE_RT_ImportModule	sinobot_ctpn/utils/bbox/bbox.c	7326;"	d	file:
+__PYX_HAVE_RT_ImportModule	sinobot_ctpn/utils/bbox/nms.c	8296;"	d	file:
+__PYX_HAVE_RT_ImportType	sinobot_ctpn/utils/bbox/bbox.c	7344;"	d	file:
+__PYX_HAVE_RT_ImportType	sinobot_ctpn/utils/bbox/nms.c	8314;"	d	file:
+__PYX_HAVE__bbox	sinobot_ctpn/utils/bbox/bbox.c	278;"	d	file:
+__PYX_HAVE__nms	sinobot_ctpn/utils/bbox/nms.c	278;"	d	file:
+__PYX_NAN	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE float __PYX_NAN() {$/;"	f	file:
+__PYX_NAN	sinobot_ctpn/utils/bbox/bbox.c	242;"	d	file:
+__PYX_NAN	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE float __PYX_NAN() {$/;"	f	file:
+__PYX_NAN	sinobot_ctpn/utils/bbox/nms.c	242;"	d	file:
+__PYX_VERIFY_RETURN_INT	sinobot_ctpn/utils/bbox/bbox.c	6407;"	d	file:
+__PYX_VERIFY_RETURN_INT	sinobot_ctpn/utils/bbox/nms.c	7589;"	d	file:
+__PYX_VERIFY_RETURN_INT_EXC	sinobot_ctpn/utils/bbox/bbox.c	6409;"	d	file:
+__PYX_VERIFY_RETURN_INT_EXC	sinobot_ctpn/utils/bbox/nms.c	7591;"	d	file:
+__PYX__VERIFY_RETURN_INT	sinobot_ctpn/utils/bbox/bbox.c	6411;"	d	file:
+__PYX__VERIFY_RETURN_INT	sinobot_ctpn/utils/bbox/nms.c	7593;"	d	file:
+__Pyx_AddTraceback	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_AddTraceback(const char *funcname, int c_line,$/;"	f	file:
+__Pyx_AddTraceback	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_AddTraceback(const char *funcname, int c_line,$/;"	f	file:
+__Pyx_ArgTypeTest	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE int __Pyx_ArgTypeTest(PyObject *obj, PyTypeObject *type, int none_allowed,$/;"	f	file:
+__Pyx_ArgTypeTest	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE int __Pyx_ArgTypeTest(PyObject *obj, PyTypeObject *type, int none_allowed,$/;"	f	file:
+__Pyx_BUILTIN_MODULE_NAME	sinobot_ctpn/utils/bbox/bbox.c	69;"	d	file:
+__Pyx_BUILTIN_MODULE_NAME	sinobot_ctpn/utils/bbox/bbox.c	74;"	d	file:
+__Pyx_BUILTIN_MODULE_NAME	sinobot_ctpn/utils/bbox/nms.c	69;"	d	file:
+__Pyx_BUILTIN_MODULE_NAME	sinobot_ctpn/utils/bbox/nms.c	74;"	d	file:
+__Pyx_BufFmt_CheckString	sinobot_ctpn/utils/bbox/bbox.c	/^static const char* __Pyx_BufFmt_CheckString(__Pyx_BufFmt_Context* ctx, const char* ts) {$/;"	f	file:
+__Pyx_BufFmt_CheckString	sinobot_ctpn/utils/bbox/nms.c	/^static const char* __Pyx_BufFmt_CheckString(__Pyx_BufFmt_Context* ctx, const char* ts) {$/;"	f	file:
+__Pyx_BufFmt_Context	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_BufFmt_Context;$/;"	t	typeref:struct:__anon33	file:
+__Pyx_BufFmt_Context	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_BufFmt_Context;$/;"	t	typeref:struct:__anon5	file:
+__Pyx_BufFmt_DescribeTypeChar	sinobot_ctpn/utils/bbox/bbox.c	/^static const char* __Pyx_BufFmt_DescribeTypeChar(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_DescribeTypeChar	sinobot_ctpn/utils/bbox/nms.c	/^static const char* __Pyx_BufFmt_DescribeTypeChar(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_ExpectNumber	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_BufFmt_ExpectNumber(const char **ts) {$/;"	f	file:
+__Pyx_BufFmt_ExpectNumber	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_BufFmt_ExpectNumber(const char **ts) {$/;"	f	file:
+__Pyx_BufFmt_Init	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_BufFmt_Init(__Pyx_BufFmt_Context* ctx,$/;"	f	file:
+__Pyx_BufFmt_Init	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_BufFmt_Init(__Pyx_BufFmt_Context* ctx,$/;"	f	file:
+__Pyx_BufFmt_ParseNumber	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_BufFmt_ParseNumber(const char** ts) {$/;"	f	file:
+__Pyx_BufFmt_ParseNumber	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_BufFmt_ParseNumber(const char** ts) {$/;"	f	file:
+__Pyx_BufFmt_ProcessTypeChunk	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_BufFmt_ProcessTypeChunk(__Pyx_BufFmt_Context* ctx) {$/;"	f	file:
+__Pyx_BufFmt_ProcessTypeChunk	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_BufFmt_ProcessTypeChunk(__Pyx_BufFmt_Context* ctx) {$/;"	f	file:
+__Pyx_BufFmt_RaiseExpected	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_BufFmt_RaiseExpected(__Pyx_BufFmt_Context* ctx) {$/;"	f	file:
+__Pyx_BufFmt_RaiseExpected	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_BufFmt_RaiseExpected(__Pyx_BufFmt_Context* ctx) {$/;"	f	file:
+__Pyx_BufFmt_RaiseUnexpectedChar	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_BufFmt_RaiseUnexpectedChar(char ch) {$/;"	f	file:
+__Pyx_BufFmt_RaiseUnexpectedChar	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_BufFmt_RaiseUnexpectedChar(char ch) {$/;"	f	file:
+__Pyx_BufFmt_StackElem	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_BufFmt_StackElem;$/;"	t	typeref:struct:__anon32	file:
+__Pyx_BufFmt_StackElem	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_BufFmt_StackElem;$/;"	t	typeref:struct:__anon4	file:
+__Pyx_BufFmt_TypeCharToAlignment	sinobot_ctpn/utils/bbox/bbox.c	/^static size_t __Pyx_BufFmt_TypeCharToAlignment(char ch, CYTHON_UNUSED int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToAlignment	sinobot_ctpn/utils/bbox/nms.c	/^static size_t __Pyx_BufFmt_TypeCharToAlignment(char ch, CYTHON_UNUSED int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToGroup	sinobot_ctpn/utils/bbox/bbox.c	/^static char __Pyx_BufFmt_TypeCharToGroup(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToGroup	sinobot_ctpn/utils/bbox/nms.c	/^static char __Pyx_BufFmt_TypeCharToGroup(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToNativeSize	sinobot_ctpn/utils/bbox/bbox.c	/^static size_t __Pyx_BufFmt_TypeCharToNativeSize(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToNativeSize	sinobot_ctpn/utils/bbox/nms.c	/^static size_t __Pyx_BufFmt_TypeCharToNativeSize(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToPadding	sinobot_ctpn/utils/bbox/bbox.c	/^static size_t __Pyx_BufFmt_TypeCharToPadding(char ch, CYTHON_UNUSED int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToPadding	sinobot_ctpn/utils/bbox/nms.c	/^static size_t __Pyx_BufFmt_TypeCharToPadding(char ch, CYTHON_UNUSED int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToStandardSize	sinobot_ctpn/utils/bbox/bbox.c	/^static size_t __Pyx_BufFmt_TypeCharToStandardSize(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufFmt_TypeCharToStandardSize	sinobot_ctpn/utils/bbox/nms.c	/^static size_t __Pyx_BufFmt_TypeCharToStandardSize(char ch, int is_complex) {$/;"	f	file:
+__Pyx_BufPtrStrided1d	sinobot_ctpn/utils/bbox/nms.c	959;"	d	file:
+__Pyx_BufPtrStrided2d	sinobot_ctpn/utils/bbox/bbox.c	945;"	d	file:
+__Pyx_Buf_DimInfo	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_Buf_DimInfo;$/;"	t	typeref:struct:__anon38	file:
+__Pyx_Buf_DimInfo	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_Buf_DimInfo;$/;"	t	typeref:struct:__anon10	file:
+__Pyx_Buffer	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_Buffer;$/;"	t	typeref:struct:__anon39	file:
+__Pyx_Buffer	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_Buffer;$/;"	t	typeref:struct:__anon11	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/bbox.c	1059;"	d	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/bbox.c	1062;"	d	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/bbox.c	1066;"	d	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/nms.c	1093;"	d	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/nms.c	1096;"	d	file:
+__Pyx_CIMAG	sinobot_ctpn/utils/bbox/nms.c	1100;"	d	file:
+__Pyx_CLEAR	sinobot_ctpn/utils/bbox/bbox.c	882;"	d	file:
+__Pyx_CLEAR	sinobot_ctpn/utils/bbox/nms.c	873;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/bbox.c	1058;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/bbox.c	1061;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/bbox.c	1065;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/nms.c	1092;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/nms.c	1095;"	d	file:
+__Pyx_CREAL	sinobot_ctpn/utils/bbox/nms.c	1099;"	d	file:
+__Pyx_CodeObjectCache	sinobot_ctpn/utils/bbox/bbox.c	/^struct __Pyx_CodeObjectCache {$/;"	s	file:
+__Pyx_CodeObjectCache	sinobot_ctpn/utils/bbox/nms.c	/^struct __Pyx_CodeObjectCache {$/;"	s	file:
+__Pyx_CodeObjectCacheEntry	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_CodeObjectCacheEntry;$/;"	t	typeref:struct:__anon37	file:
+__Pyx_CodeObjectCacheEntry	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_CodeObjectCacheEntry;$/;"	t	typeref:struct:__anon9	file:
+__Pyx_CreateCodeObjectForTraceback	sinobot_ctpn/utils/bbox/bbox.c	/^static PyCodeObject* __Pyx_CreateCodeObjectForTraceback($/;"	f	file:
+__Pyx_CreateCodeObjectForTraceback	sinobot_ctpn/utils/bbox/nms.c	/^static PyCodeObject* __Pyx_CreateCodeObjectForTraceback($/;"	f	file:
+__Pyx_DECREF	sinobot_ctpn/utils/bbox/bbox.c	854;"	d	file:
+__Pyx_DECREF	sinobot_ctpn/utils/bbox/bbox.c	866;"	d	file:
+__Pyx_DECREF	sinobot_ctpn/utils/bbox/nms.c	845;"	d	file:
+__Pyx_DECREF	sinobot_ctpn/utils/bbox/nms.c	857;"	d	file:
+__Pyx_DECREF_SET	sinobot_ctpn/utils/bbox/bbox.c	878;"	d	file:
+__Pyx_DECREF_SET	sinobot_ctpn/utils/bbox/nms.c	869;"	d	file:
+__Pyx_DefaultClassType	sinobot_ctpn/utils/bbox/bbox.c	72;"	d	file:
+__Pyx_DefaultClassType	sinobot_ctpn/utils/bbox/bbox.c	77;"	d	file:
+__Pyx_DefaultClassType	sinobot_ctpn/utils/bbox/nms.c	72;"	d	file:
+__Pyx_DefaultClassType	sinobot_ctpn/utils/bbox/nms.c	77;"	d	file:
+__Pyx_ErrFetch	sinobot_ctpn/utils/bbox/bbox.c	960;"	d	file:
+__Pyx_ErrFetch	sinobot_ctpn/utils/bbox/bbox.c	967;"	d	file:
+__Pyx_ErrFetch	sinobot_ctpn/utils/bbox/nms.c	991;"	d	file:
+__Pyx_ErrFetch	sinobot_ctpn/utils/bbox/nms.c	998;"	d	file:
+__Pyx_ErrFetchInState	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {$/;"	f	file:
+__Pyx_ErrFetchInState	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {$/;"	f	file:
+__Pyx_ErrFetchWithState	sinobot_ctpn/utils/bbox/bbox.c	958;"	d	file:
+__Pyx_ErrFetchWithState	sinobot_ctpn/utils/bbox/bbox.c	965;"	d	file:
+__Pyx_ErrFetchWithState	sinobot_ctpn/utils/bbox/nms.c	989;"	d	file:
+__Pyx_ErrFetchWithState	sinobot_ctpn/utils/bbox/nms.c	996;"	d	file:
+__Pyx_ErrRestore	sinobot_ctpn/utils/bbox/bbox.c	959;"	d	file:
+__Pyx_ErrRestore	sinobot_ctpn/utils/bbox/bbox.c	966;"	d	file:
+__Pyx_ErrRestore	sinobot_ctpn/utils/bbox/nms.c	990;"	d	file:
+__Pyx_ErrRestore	sinobot_ctpn/utils/bbox/nms.c	997;"	d	file:
+__Pyx_ErrRestoreInState	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {$/;"	f	file:
+__Pyx_ErrRestoreInState	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {$/;"	f	file:
+__Pyx_ErrRestoreWithState	sinobot_ctpn/utils/bbox/bbox.c	957;"	d	file:
+__Pyx_ErrRestoreWithState	sinobot_ctpn/utils/bbox/bbox.c	964;"	d	file:
+__Pyx_ErrRestoreWithState	sinobot_ctpn/utils/bbox/nms.c	988;"	d	file:
+__Pyx_ErrRestoreWithState	sinobot_ctpn/utils/bbox/nms.c	995;"	d	file:
+__Pyx_GIVEREF	sinobot_ctpn/utils/bbox/bbox.c	856;"	d	file:
+__Pyx_GIVEREF	sinobot_ctpn/utils/bbox/bbox.c	868;"	d	file:
+__Pyx_GIVEREF	sinobot_ctpn/utils/bbox/nms.c	847;"	d	file:
+__Pyx_GIVEREF	sinobot_ctpn/utils/bbox/nms.c	859;"	d	file:
+__Pyx_GOTREF	sinobot_ctpn/utils/bbox/bbox.c	855;"	d	file:
+__Pyx_GOTREF	sinobot_ctpn/utils/bbox/bbox.c	867;"	d	file:
+__Pyx_GOTREF	sinobot_ctpn/utils/bbox/nms.c	846;"	d	file:
+__Pyx_GOTREF	sinobot_ctpn/utils/bbox/nms.c	858;"	d	file:
+__Pyx_GetBuffer	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags) {$/;"	f	file:
+__Pyx_GetBuffer	sinobot_ctpn/utils/bbox/bbox.c	1043;"	d	file:
+__Pyx_GetBuffer	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags) {$/;"	f	file:
+__Pyx_GetBuffer	sinobot_ctpn/utils/bbox/nms.c	1074;"	d	file:
+__Pyx_GetBufferAndValidate	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE int __Pyx_GetBufferAndValidate($/;"	f	file:
+__Pyx_GetBufferAndValidate	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE int __Pyx_GetBufferAndValidate($/;"	f	file:
+__Pyx_GetBuiltinName	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__Pyx_GetBuiltinName(PyObject *name) {$/;"	f	file:
+__Pyx_GetBuiltinName	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__Pyx_GetBuiltinName(PyObject *name) {$/;"	f	file:
+__Pyx_GetModuleGlobalName	sinobot_ctpn/utils/bbox/bbox.c	/^  static CYTHON_INLINE PyObject *__Pyx_GetModuleGlobalName(PyObject *name) {$/;"	f	file:
+__Pyx_GetModuleGlobalName	sinobot_ctpn/utils/bbox/nms.c	/^      static CYTHON_INLINE PyObject *__Pyx_GetModuleGlobalName(PyObject *name) {$/;"	f	file:
+__Pyx_INCREF	sinobot_ctpn/utils/bbox/bbox.c	853;"	d	file:
+__Pyx_INCREF	sinobot_ctpn/utils/bbox/bbox.c	865;"	d	file:
+__Pyx_INCREF	sinobot_ctpn/utils/bbox/nms.c	844;"	d	file:
+__Pyx_INCREF	sinobot_ctpn/utils/bbox/nms.c	856;"	d	file:
+__Pyx_Import	sinobot_ctpn/utils/bbox/bbox.c	/^      static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {$/;"	f	file:
+__Pyx_Import	sinobot_ctpn/utils/bbox/nms.c	/^          static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {$/;"	f	file:
+__Pyx_ImportModule	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__Pyx_ImportModule(const char *name) {$/;"	f	file:
+__Pyx_ImportModule	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__Pyx_ImportModule(const char *name) {$/;"	f	file:
+__Pyx_ImportType	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__Pyx_ImportType(const char *module_name, const char *class_name,$/;"	f	file:
+__Pyx_ImportType	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__Pyx_ImportType(const char *module_name, const char *class_name,$/;"	f	file:
+__Pyx_InitCachedBuiltins	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_InitCachedBuiltins(void) {$/;"	f	file:
+__Pyx_InitCachedBuiltins	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_InitCachedBuiltins(void) {$/;"	f	file:
+__Pyx_InitCachedConstants	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_InitCachedConstants(void) {$/;"	f	file:
+__Pyx_InitCachedConstants	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_InitCachedConstants(void) {$/;"	f	file:
+__Pyx_InitGlobals	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_InitGlobals(void) {$/;"	f	file:
+__Pyx_InitGlobals	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_InitGlobals(void) {$/;"	f	file:
+__Pyx_InitStrings	sinobot_ctpn/utils/bbox/bbox.c	/^      static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {$/;"	f	file:
+__Pyx_InitStrings	sinobot_ctpn/utils/bbox/nms.c	/^          static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {$/;"	f	file:
+__Pyx_IsLittleEndian	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE int __Pyx_IsLittleEndian(void) {$/;"	f	file:
+__Pyx_IsLittleEndian	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE int __Pyx_IsLittleEndian(void) {$/;"	f	file:
+__Pyx_LocalBuf_ND	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_LocalBuf_ND;$/;"	t	typeref:struct:__anon40	file:
+__Pyx_LocalBuf_ND	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_LocalBuf_ND;$/;"	t	typeref:struct:__anon12	file:
+__Pyx_MODULE_NAME	sinobot_ctpn/utils/bbox/bbox.c	1231;"	d	file:
+__Pyx_MODULE_NAME	sinobot_ctpn/utils/bbox/nms.c	1257;"	d	file:
+__Pyx_NewRef	sinobot_ctpn/utils/bbox/bbox.c	383;"	d	file:
+__Pyx_NewRef	sinobot_ctpn/utils/bbox/nms.c	383;"	d	file:
+__Pyx_Owned_Py_None	sinobot_ctpn/utils/bbox/bbox.c	384;"	d	file:
+__Pyx_Owned_Py_None	sinobot_ctpn/utils/bbox/nms.c	384;"	d	file:
+__Pyx_ParseOptionalKeywords	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_ParseOptionalKeywords($/;"	f	file:
+__Pyx_ParseOptionalKeywords	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_ParseOptionalKeywords($/;"	f	file:
+__Pyx_PyAsyncMethodsStruct	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_PyAsyncMethodsStruct;$/;"	t	typeref:struct:__anon29	file:
+__Pyx_PyAsyncMethodsStruct	sinobot_ctpn/utils/bbox/bbox.c	200;"	d	file:
+__Pyx_PyAsyncMethodsStruct	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_PyAsyncMethodsStruct;$/;"	t	typeref:struct:__anon1	file:
+__Pyx_PyAsyncMethodsStruct	sinobot_ctpn/utils/bbox/nms.c	200;"	d	file:
+__Pyx_PyBaseString_Check	sinobot_ctpn/utils/bbox/bbox.c	151;"	d	file:
+__Pyx_PyBaseString_Check	sinobot_ctpn/utils/bbox/bbox.c	154;"	d	file:
+__Pyx_PyBaseString_Check	sinobot_ctpn/utils/bbox/nms.c	151;"	d	file:
+__Pyx_PyBaseString_Check	sinobot_ctpn/utils/bbox/nms.c	154;"	d	file:
+__Pyx_PyBaseString_CheckExact	sinobot_ctpn/utils/bbox/bbox.c	152;"	d	file:
+__Pyx_PyBaseString_CheckExact	sinobot_ctpn/utils/bbox/bbox.c	155;"	d	file:
+__Pyx_PyBaseString_CheckExact	sinobot_ctpn/utils/bbox/nms.c	152;"	d	file:
+__Pyx_PyBaseString_CheckExact	sinobot_ctpn/utils/bbox/nms.c	155;"	d	file:
+__Pyx_PyBool_FromLong	sinobot_ctpn/utils/bbox/bbox.c	385;"	d	file:
+__Pyx_PyBool_FromLong	sinobot_ctpn/utils/bbox/nms.c	385;"	d	file:
+__Pyx_PyByteArray_FromCString	sinobot_ctpn/utils/bbox/bbox.c	367;"	d	file:
+__Pyx_PyByteArray_FromCString	sinobot_ctpn/utils/bbox/nms.c	367;"	d	file:
+__Pyx_PyByteArray_FromString	sinobot_ctpn/utils/bbox/bbox.c	351;"	d	file:
+__Pyx_PyByteArray_FromString	sinobot_ctpn/utils/bbox/nms.c	351;"	d	file:
+__Pyx_PyByteArray_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	352;"	d	file:
+__Pyx_PyByteArray_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	352;"	d	file:
+__Pyx_PyBytes_FromCString	sinobot_ctpn/utils/bbox/bbox.c	366;"	d	file:
+__Pyx_PyBytes_FromCString	sinobot_ctpn/utils/bbox/nms.c	366;"	d	file:
+__Pyx_PyBytes_FromString	sinobot_ctpn/utils/bbox/bbox.c	353;"	d	file:
+__Pyx_PyBytes_FromString	sinobot_ctpn/utils/bbox/nms.c	353;"	d	file:
+__Pyx_PyBytes_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	354;"	d	file:
+__Pyx_PyBytes_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	354;"	d	file:
+__Pyx_PyCode_New	sinobot_ctpn/utils/bbox/bbox.c	70;"	d	file:
+__Pyx_PyCode_New	sinobot_ctpn/utils/bbox/bbox.c	75;"	d	file:
+__Pyx_PyCode_New	sinobot_ctpn/utils/bbox/nms.c	70;"	d	file:
+__Pyx_PyCode_New	sinobot_ctpn/utils/bbox/nms.c	75;"	d	file:
+__Pyx_PyDict_GetItem	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key) {$/;"	f	file:
+__Pyx_PyDict_GetItem	sinobot_ctpn/utils/bbox/bbox.c	991;"	d	file:
+__Pyx_PyDict_GetItem	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key) {$/;"	f	file:
+__Pyx_PyDict_GetItem	sinobot_ctpn/utils/bbox/nms.c	1022;"	d	file:
+__Pyx_PyIdentifier_FromString	sinobot_ctpn/utils/bbox/bbox.c	1182;"	d	file:
+__Pyx_PyIdentifier_FromString	sinobot_ctpn/utils/bbox/bbox.c	1184;"	d	file:
+__Pyx_PyIdentifier_FromString	sinobot_ctpn/utils/bbox/nms.c	1207;"	d	file:
+__Pyx_PyIdentifier_FromString	sinobot_ctpn/utils/bbox/nms.c	1209;"	d	file:
+__Pyx_PyIndex_AsSsize_t	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {$/;"	f	file:
+__Pyx_PyIndex_AsSsize_t	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {$/;"	f	file:
+__Pyx_PyInt_AddObjC	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, CYTHON_UNUSED int inplace) {$/;"	f	file:
+__Pyx_PyInt_AddObjC	sinobot_ctpn/utils/bbox/nms.c	927;"	d	file:
+__Pyx_PyInt_AsHash_t	sinobot_ctpn/utils/bbox/bbox.c	189;"	d	file:
+__Pyx_PyInt_AsHash_t	sinobot_ctpn/utils/bbox/bbox.c	192;"	d	file:
+__Pyx_PyInt_AsHash_t	sinobot_ctpn/utils/bbox/nms.c	189;"	d	file:
+__Pyx_PyInt_AsHash_t	sinobot_ctpn/utils/bbox/nms.c	192;"	d	file:
+__Pyx_PyInt_As_int	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_As_int	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_As_long	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_As_long	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_As_unsigned_int	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE unsigned int __Pyx_PyInt_As_unsigned_int(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_FromHash_t	sinobot_ctpn/utils/bbox/bbox.c	188;"	d	file:
+__Pyx_PyInt_FromHash_t	sinobot_ctpn/utils/bbox/bbox.c	191;"	d	file:
+__Pyx_PyInt_FromHash_t	sinobot_ctpn/utils/bbox/nms.c	188;"	d	file:
+__Pyx_PyInt_FromHash_t	sinobot_ctpn/utils/bbox/nms.c	191;"	d	file:
+__Pyx_PyInt_FromSize_t	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject * __Pyx_PyInt_FromSize_t(size_t ival) {$/;"	f	file:
+__Pyx_PyInt_FromSize_t	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject * __Pyx_PyInt_FromSize_t(size_t ival) {$/;"	f	file:
+__Pyx_PyInt_From_enum__NPY_TYPES	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value) {$/;"	f	file:
+__Pyx_PyInt_From_enum__NPY_TYPES	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value) {$/;"	f	file:
+__Pyx_PyInt_From_int	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {$/;"	f	file:
+__Pyx_PyInt_From_int	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {$/;"	f	file:
+__Pyx_PyInt_From_long	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {$/;"	f	file:
+__Pyx_PyInt_From_long	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {$/;"	f	file:
+__Pyx_PyInt_From_unsigned_int	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE PyObject* __Pyx_PyInt_From_unsigned_int(unsigned int value) {$/;"	f	file:
+__Pyx_PyList_Append	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE int __Pyx_PyList_Append(PyObject* list, PyObject* x) {$/;"	f	file:
+__Pyx_PyList_Append	sinobot_ctpn/utils/bbox/nms.c	974;"	d	file:
+__Pyx_PyMethod_New	sinobot_ctpn/utils/bbox/bbox.c	195;"	d	file:
+__Pyx_PyMethod_New	sinobot_ctpn/utils/bbox/bbox.c	197;"	d	file:
+__Pyx_PyMethod_New	sinobot_ctpn/utils/bbox/nms.c	195;"	d	file:
+__Pyx_PyMethod_New	sinobot_ctpn/utils/bbox/nms.c	197;"	d	file:
+__Pyx_PyNumber_Divide	sinobot_ctpn/utils/bbox/bbox.c	263;"	d	file:
+__Pyx_PyNumber_Divide	sinobot_ctpn/utils/bbox/bbox.c	266;"	d	file:
+__Pyx_PyNumber_Divide	sinobot_ctpn/utils/bbox/nms.c	263;"	d	file:
+__Pyx_PyNumber_Divide	sinobot_ctpn/utils/bbox/nms.c	266;"	d	file:
+__Pyx_PyNumber_Float	sinobot_ctpn/utils/bbox/bbox.c	401;"	d	file:
+__Pyx_PyNumber_Float	sinobot_ctpn/utils/bbox/nms.c	401;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	sinobot_ctpn/utils/bbox/bbox.c	264;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	sinobot_ctpn/utils/bbox/bbox.c	267;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	sinobot_ctpn/utils/bbox/nms.c	264;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	sinobot_ctpn/utils/bbox/nms.c	267;"	d	file:
+__Pyx_PyNumber_Int	sinobot_ctpn/utils/bbox/bbox.c	397;"	d	file:
+__Pyx_PyNumber_Int	sinobot_ctpn/utils/bbox/bbox.c	399;"	d	file:
+__Pyx_PyNumber_Int	sinobot_ctpn/utils/bbox/nms.c	397;"	d	file:
+__Pyx_PyNumber_Int	sinobot_ctpn/utils/bbox/nms.c	399;"	d	file:
+__Pyx_PyNumber_IntOrLong	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject* __Pyx_PyNumber_IntOrLong(PyObject* x) {$/;"	f	file:
+__Pyx_PyNumber_IntOrLong	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyNumber_IntOrLong(PyObject* x) {$/;"	f	file:
+__Pyx_PyObject_AsSString	sinobot_ctpn/utils/bbox/bbox.c	363;"	d	file:
+__Pyx_PyObject_AsSString	sinobot_ctpn/utils/bbox/nms.c	363;"	d	file:
+__Pyx_PyObject_AsString	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE char* __Pyx_PyObject_AsString(PyObject* o) {$/;"	f	file:
+__Pyx_PyObject_AsString	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE char* __Pyx_PyObject_AsString(PyObject* o) {$/;"	f	file:
+__Pyx_PyObject_AsStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {$/;"	f	file:
+__Pyx_PyObject_AsStringAndSize	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {$/;"	f	file:
+__Pyx_PyObject_AsUString	sinobot_ctpn/utils/bbox/bbox.c	364;"	d	file:
+__Pyx_PyObject_AsUString	sinobot_ctpn/utils/bbox/nms.c	364;"	d	file:
+__Pyx_PyObject_Call	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {$/;"	f	file:
+__Pyx_PyObject_Call	sinobot_ctpn/utils/bbox/bbox.c	936;"	d	file:
+__Pyx_PyObject_Call	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {$/;"	f	file:
+__Pyx_PyObject_Call	sinobot_ctpn/utils/bbox/nms.c	935;"	d	file:
+__Pyx_PyObject_CallMethO	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg) {$/;"	f	file:
+__Pyx_PyObject_CallNoArg	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {$/;"	f	file:
+__Pyx_PyObject_CallNoArg	sinobot_ctpn/utils/bbox/nms.c	950;"	d	file:
+__Pyx_PyObject_CallOneArg	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg) {$/;"	f	file:
+__Pyx_PyObject_FromCString	sinobot_ctpn/utils/bbox/bbox.c	365;"	d	file:
+__Pyx_PyObject_FromCString	sinobot_ctpn/utils/bbox/nms.c	365;"	d	file:
+__Pyx_PyObject_FromString	sinobot_ctpn/utils/bbox/bbox.c	319;"	d	file:
+__Pyx_PyObject_FromString	sinobot_ctpn/utils/bbox/nms.c	319;"	d	file:
+__Pyx_PyObject_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	320;"	d	file:
+__Pyx_PyObject_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	320;"	d	file:
+__Pyx_PyObject_GetAttrStr	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject* attr_name) {$/;"	f	file:
+__Pyx_PyObject_GetAttrStr	sinobot_ctpn/utils/bbox/bbox.c	898;"	d	file:
+__Pyx_PyObject_GetAttrStr	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject* attr_name) {$/;"	f	file:
+__Pyx_PyObject_GetAttrStr	sinobot_ctpn/utils/bbox/nms.c	889;"	d	file:
+__Pyx_PyObject_IsTrue	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE int __Pyx_PyObject_IsTrue(PyObject* x) {$/;"	f	file:
+__Pyx_PyObject_IsTrue	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE int __Pyx_PyObject_IsTrue(PyObject* x) {$/;"	f	file:
+__Pyx_PyStr_FromCString	sinobot_ctpn/utils/bbox/bbox.c	368;"	d	file:
+__Pyx_PyStr_FromCString	sinobot_ctpn/utils/bbox/nms.c	368;"	d	file:
+__Pyx_PyStr_FromString	sinobot_ctpn/utils/bbox/bbox.c	357;"	d	file:
+__Pyx_PyStr_FromString	sinobot_ctpn/utils/bbox/bbox.c	360;"	d	file:
+__Pyx_PyStr_FromString	sinobot_ctpn/utils/bbox/nms.c	357;"	d	file:
+__Pyx_PyStr_FromString	sinobot_ctpn/utils/bbox/nms.c	360;"	d	file:
+__Pyx_PyStr_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	358;"	d	file:
+__Pyx_PyStr_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	361;"	d	file:
+__Pyx_PyStr_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	358;"	d	file:
+__Pyx_PyStr_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	361;"	d	file:
+__Pyx_PyString_Format	sinobot_ctpn/utils/bbox/bbox.c	136;"	d	file:
+__Pyx_PyString_Format	sinobot_ctpn/utils/bbox/bbox.c	138;"	d	file:
+__Pyx_PyString_Format	sinobot_ctpn/utils/bbox/nms.c	136;"	d	file:
+__Pyx_PyString_Format	sinobot_ctpn/utils/bbox/nms.c	138;"	d	file:
+__Pyx_PyString_FormatSafe	sinobot_ctpn/utils/bbox/bbox.c	133;"	d	file:
+__Pyx_PyString_FormatSafe	sinobot_ctpn/utils/bbox/nms.c	133;"	d	file:
+__Pyx_PyThreadState_assign	sinobot_ctpn/utils/bbox/bbox.c	949;"	d	file:
+__Pyx_PyThreadState_assign	sinobot_ctpn/utils/bbox/bbox.c	952;"	d	file:
+__Pyx_PyThreadState_assign	sinobot_ctpn/utils/bbox/nms.c	980;"	d	file:
+__Pyx_PyThreadState_assign	sinobot_ctpn/utils/bbox/nms.c	983;"	d	file:
+__Pyx_PyThreadState_declare	sinobot_ctpn/utils/bbox/bbox.c	948;"	d	file:
+__Pyx_PyThreadState_declare	sinobot_ctpn/utils/bbox/bbox.c	951;"	d	file:
+__Pyx_PyThreadState_declare	sinobot_ctpn/utils/bbox/nms.c	979;"	d	file:
+__Pyx_PyThreadState_declare	sinobot_ctpn/utils/bbox/nms.c	982;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/bbox.c	201;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/bbox.c	208;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/bbox.c	210;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/nms.c	201;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/nms.c	208;"	d	file:
+__Pyx_PyType_AsAsync	sinobot_ctpn/utils/bbox/nms.c	210;"	d	file:
+__Pyx_PyUnicode_AsUnicode	sinobot_ctpn/utils/bbox/bbox.c	382;"	d	file:
+__Pyx_PyUnicode_AsUnicode	sinobot_ctpn/utils/bbox/nms.c	382;"	d	file:
+__Pyx_PyUnicode_Concat	sinobot_ctpn/utils/bbox/bbox.c	112;"	d	file:
+__Pyx_PyUnicode_Concat	sinobot_ctpn/utils/bbox/bbox.c	115;"	d	file:
+__Pyx_PyUnicode_Concat	sinobot_ctpn/utils/bbox/nms.c	112;"	d	file:
+__Pyx_PyUnicode_Concat	sinobot_ctpn/utils/bbox/nms.c	115;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	sinobot_ctpn/utils/bbox/bbox.c	113;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	sinobot_ctpn/utils/bbox/bbox.c	116;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	sinobot_ctpn/utils/bbox/nms.c	113;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	sinobot_ctpn/utils/bbox/nms.c	116;"	d	file:
+__Pyx_PyUnicode_DATA	sinobot_ctpn/utils/bbox/bbox.c	107;"	d	file:
+__Pyx_PyUnicode_DATA	sinobot_ctpn/utils/bbox/bbox.c	98;"	d	file:
+__Pyx_PyUnicode_DATA	sinobot_ctpn/utils/bbox/nms.c	107;"	d	file:
+__Pyx_PyUnicode_DATA	sinobot_ctpn/utils/bbox/nms.c	98;"	d	file:
+__Pyx_PyUnicode_FormatSafe	sinobot_ctpn/utils/bbox/bbox.c	134;"	d	file:
+__Pyx_PyUnicode_FormatSafe	sinobot_ctpn/utils/bbox/nms.c	134;"	d	file:
+__Pyx_PyUnicode_FromCString	sinobot_ctpn/utils/bbox/bbox.c	369;"	d	file:
+__Pyx_PyUnicode_FromCString	sinobot_ctpn/utils/bbox/nms.c	369;"	d	file:
+__Pyx_PyUnicode_FromString	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject* __Pyx_PyUnicode_FromString(const char* c_str) {$/;"	f	file:
+__Pyx_PyUnicode_FromString	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject* __Pyx_PyUnicode_FromString(const char* c_str) {$/;"	f	file:
+__Pyx_PyUnicode_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	449;"	d	file:
+__Pyx_PyUnicode_FromStringAndSize	sinobot_ctpn/utils/bbox/bbox.c	451;"	d	file:
+__Pyx_PyUnicode_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	449;"	d	file:
+__Pyx_PyUnicode_FromStringAndSize	sinobot_ctpn/utils/bbox/nms.c	451;"	d	file:
+__Pyx_PyUnicode_FromUnicode	sinobot_ctpn/utils/bbox/bbox.c	380;"	d	file:
+__Pyx_PyUnicode_FromUnicode	sinobot_ctpn/utils/bbox/nms.c	380;"	d	file:
+__Pyx_PyUnicode_FromUnicodeAndLength	sinobot_ctpn/utils/bbox/bbox.c	381;"	d	file:
+__Pyx_PyUnicode_FromUnicodeAndLength	sinobot_ctpn/utils/bbox/nms.c	381;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	sinobot_ctpn/utils/bbox/bbox.c	104;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	sinobot_ctpn/utils/bbox/bbox.c	95;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	sinobot_ctpn/utils/bbox/nms.c	104;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	sinobot_ctpn/utils/bbox/nms.c	95;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	sinobot_ctpn/utils/bbox/bbox.c	100;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	sinobot_ctpn/utils/bbox/bbox.c	109;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	sinobot_ctpn/utils/bbox/nms.c	100;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	sinobot_ctpn/utils/bbox/nms.c	109;"	d	file:
+__Pyx_PyUnicode_KIND	sinobot_ctpn/utils/bbox/bbox.c	106;"	d	file:
+__Pyx_PyUnicode_KIND	sinobot_ctpn/utils/bbox/bbox.c	97;"	d	file:
+__Pyx_PyUnicode_KIND	sinobot_ctpn/utils/bbox/nms.c	106;"	d	file:
+__Pyx_PyUnicode_KIND	sinobot_ctpn/utils/bbox/nms.c	97;"	d	file:
+__Pyx_PyUnicode_READ	sinobot_ctpn/utils/bbox/bbox.c	108;"	d	file:
+__Pyx_PyUnicode_READ	sinobot_ctpn/utils/bbox/bbox.c	99;"	d	file:
+__Pyx_PyUnicode_READ	sinobot_ctpn/utils/bbox/nms.c	108;"	d	file:
+__Pyx_PyUnicode_READ	sinobot_ctpn/utils/bbox/nms.c	99;"	d	file:
+__Pyx_PyUnicode_READY	sinobot_ctpn/utils/bbox/bbox.c	103;"	d	file:
+__Pyx_PyUnicode_READY	sinobot_ctpn/utils/bbox/bbox.c	93;"	d	file:
+__Pyx_PyUnicode_READY	sinobot_ctpn/utils/bbox/nms.c	103;"	d	file:
+__Pyx_PyUnicode_READY	sinobot_ctpn/utils/bbox/nms.c	93;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	sinobot_ctpn/utils/bbox/bbox.c	105;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	sinobot_ctpn/utils/bbox/bbox.c	96;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	sinobot_ctpn/utils/bbox/nms.c	105;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	sinobot_ctpn/utils/bbox/nms.c	96;"	d	file:
+__Pyx_Py_UNICODE_strlen	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)$/;"	f	file:
+__Pyx_Py_UNICODE_strlen	sinobot_ctpn/utils/bbox/bbox.c	378;"	d	file:
+__Pyx_Py_UNICODE_strlen	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)$/;"	f	file:
+__Pyx_Py_UNICODE_strlen	sinobot_ctpn/utils/bbox/nms.c	378;"	d	file:
+__Pyx_Raise	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {$/;"	f	file:
+__Pyx_Raise	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb,$/;"	f	file:
+__Pyx_Raise	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {$/;"	f	file:
+__Pyx_Raise	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb,$/;"	f	file:
+__Pyx_RaiseArgtupleInvalid	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_RaiseArgtupleInvalid($/;"	f	file:
+__Pyx_RaiseArgtupleInvalid	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_RaiseArgtupleInvalid($/;"	f	file:
+__Pyx_RaiseArgumentTypeInvalid	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_RaiseArgumentTypeInvalid(const char* name, PyObject *obj, PyTypeObject *type) {$/;"	f	file:
+__Pyx_RaiseArgumentTypeInvalid	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_RaiseArgumentTypeInvalid(const char* name, PyObject *obj, PyTypeObject *type) {$/;"	f	file:
+__Pyx_RaiseBufferIndexError	sinobot_ctpn/utils/bbox/bbox.c	/^    static void __Pyx_RaiseBufferIndexError(int axis) {$/;"	f	file:
+__Pyx_RaiseBufferIndexError	sinobot_ctpn/utils/bbox/nms.c	/^        static void __Pyx_RaiseBufferIndexError(int axis) {$/;"	f	file:
+__Pyx_RaiseDoubleKeywordsError	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_RaiseDoubleKeywordsError($/;"	f	file:
+__Pyx_RaiseDoubleKeywordsError	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_RaiseDoubleKeywordsError($/;"	f	file:
+__Pyx_RaiseNeedMoreValuesError	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {$/;"	f	file:
+__Pyx_RaiseNeedMoreValuesError	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {$/;"	f	file:
+__Pyx_RaiseNoneNotIterableError	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {$/;"	f	file:
+__Pyx_RaiseNoneNotIterableError	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {$/;"	f	file:
+__Pyx_RaiseTooManyValuesError	sinobot_ctpn/utils/bbox/bbox.c	/^      static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {$/;"	f	file:
+__Pyx_RaiseTooManyValuesError	sinobot_ctpn/utils/bbox/nms.c	/^          static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {$/;"	f	file:
+__Pyx_RefNanny	sinobot_ctpn/utils/bbox/bbox.c	/^  static __Pyx_RefNannyAPIStruct *__Pyx_RefNanny = NULL;$/;"	v	file:
+__Pyx_RefNanny	sinobot_ctpn/utils/bbox/nms.c	/^  static __Pyx_RefNannyAPIStruct *__Pyx_RefNanny = NULL;$/;"	v	file:
+__Pyx_RefNannyAPIStruct	sinobot_ctpn/utils/bbox/bbox.c	/^  } __Pyx_RefNannyAPIStruct;$/;"	t	typeref:struct:__anon36	file:
+__Pyx_RefNannyAPIStruct	sinobot_ctpn/utils/bbox/nms.c	/^  } __Pyx_RefNannyAPIStruct;$/;"	t	typeref:struct:__anon8	file:
+__Pyx_RefNannyDeclarations	sinobot_ctpn/utils/bbox/bbox.c	837;"	d	file:
+__Pyx_RefNannyDeclarations	sinobot_ctpn/utils/bbox/bbox.c	862;"	d	file:
+__Pyx_RefNannyDeclarations	sinobot_ctpn/utils/bbox/nms.c	828;"	d	file:
+__Pyx_RefNannyDeclarations	sinobot_ctpn/utils/bbox/nms.c	853;"	d	file:
+__Pyx_RefNannyFinishContext	sinobot_ctpn/utils/bbox/bbox.c	851;"	d	file:
+__Pyx_RefNannyFinishContext	sinobot_ctpn/utils/bbox/bbox.c	864;"	d	file:
+__Pyx_RefNannyFinishContext	sinobot_ctpn/utils/bbox/nms.c	842;"	d	file:
+__Pyx_RefNannyFinishContext	sinobot_ctpn/utils/bbox/nms.c	855;"	d	file:
+__Pyx_RefNannyImportAPI	sinobot_ctpn/utils/bbox/bbox.c	/^static __Pyx_RefNannyAPIStruct *__Pyx_RefNannyImportAPI(const char *modname) {$/;"	f	file:
+__Pyx_RefNannyImportAPI	sinobot_ctpn/utils/bbox/nms.c	/^static __Pyx_RefNannyAPIStruct *__Pyx_RefNannyImportAPI(const char *modname) {$/;"	f	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/bbox.c	839;"	d	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/bbox.c	848;"	d	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/bbox.c	863;"	d	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/nms.c	830;"	d	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/nms.c	839;"	d	file:
+__Pyx_RefNannySetupContext	sinobot_ctpn/utils/bbox/nms.c	854;"	d	file:
+__Pyx_ReleaseBuffer	sinobot_ctpn/utils/bbox/bbox.c	/^static void __Pyx_ReleaseBuffer(Py_buffer *view) {$/;"	f	file:
+__Pyx_ReleaseBuffer	sinobot_ctpn/utils/bbox/bbox.c	1044;"	d	file:
+__Pyx_ReleaseBuffer	sinobot_ctpn/utils/bbox/nms.c	/^static void __Pyx_ReleaseBuffer(Py_buffer *view) {$/;"	f	file:
+__Pyx_ReleaseBuffer	sinobot_ctpn/utils/bbox/nms.c	1075;"	d	file:
+__Pyx_SET_CIMAG	sinobot_ctpn/utils/bbox/bbox.c	1070;"	d	file:
+__Pyx_SET_CIMAG	sinobot_ctpn/utils/bbox/bbox.c	1073;"	d	file:
+__Pyx_SET_CIMAG	sinobot_ctpn/utils/bbox/nms.c	1104;"	d	file:
+__Pyx_SET_CIMAG	sinobot_ctpn/utils/bbox/nms.c	1107;"	d	file:
+__Pyx_SET_CREAL	sinobot_ctpn/utils/bbox/bbox.c	1069;"	d	file:
+__Pyx_SET_CREAL	sinobot_ctpn/utils/bbox/bbox.c	1072;"	d	file:
+__Pyx_SET_CREAL	sinobot_ctpn/utils/bbox/nms.c	1103;"	d	file:
+__Pyx_SET_CREAL	sinobot_ctpn/utils/bbox/nms.c	1106;"	d	file:
+__Pyx_SafeReleaseBuffer	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE void __Pyx_SafeReleaseBuffer(Py_buffer* info) {$/;"	f	file:
+__Pyx_SafeReleaseBuffer	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE void __Pyx_SafeReleaseBuffer(Py_buffer* info) {$/;"	f	file:
+__Pyx_StringTabEntry	sinobot_ctpn/utils/bbox/bbox.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	t	typeref:struct:__anon30	file:
+__Pyx_StringTabEntry	sinobot_ctpn/utils/bbox/nms.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	t	typeref:struct:__anon2	file:
+__Pyx_StructField	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_StructField;$/;"	t	typeref:struct:__Pyx_StructField_	file:
+__Pyx_StructField	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_StructField;$/;"	t	typeref:struct:__Pyx_StructField_	file:
+__Pyx_StructField_	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct __Pyx_StructField_ {$/;"	s	file:
+__Pyx_StructField_	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct __Pyx_StructField_ {$/;"	s	file:
+__Pyx_TypeCheck	sinobot_ctpn/utils/bbox/bbox.c	160;"	d	file:
+__Pyx_TypeCheck	sinobot_ctpn/utils/bbox/nms.c	160;"	d	file:
+__Pyx_TypeInfo	sinobot_ctpn/utils/bbox/bbox.c	/^} __Pyx_TypeInfo;$/;"	t	typeref:struct:__anon31	file:
+__Pyx_TypeInfo	sinobot_ctpn/utils/bbox/nms.c	/^} __Pyx_TypeInfo;$/;"	t	typeref:struct:__anon3	file:
+__Pyx_TypeInfo_nn___pyx_t_4bbox_DTYPE_t	sinobot_ctpn/utils/bbox/bbox.c	/^static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_4bbox_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_4bbox_DTYPE_t), { 0 }, 0, 'R', 0, 0 };$/;"	v	file:
+__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t	sinobot_ctpn/utils/bbox/nms.c	/^static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t", NULL, sizeof(__pyx_t_5numpy_float32_t), { 0 }, 0, 'R', 0, 0 };$/;"	v	file:
+__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t	sinobot_ctpn/utils/bbox/nms.c	/^static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int_t = { "int_t", NULL, sizeof(__pyx_t_5numpy_int_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int_t), 0 };$/;"	v	file:
+__Pyx_TypeTest	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type) {$/;"	f	file:
+__Pyx_TypeTest	sinobot_ctpn/utils/bbox/nms.c	/^  static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type) {$/;"	f	file:
+__Pyx_XCLEAR	sinobot_ctpn/utils/bbox/bbox.c	883;"	d	file:
+__Pyx_XCLEAR	sinobot_ctpn/utils/bbox/nms.c	874;"	d	file:
+__Pyx_XDECREF	sinobot_ctpn/utils/bbox/bbox.c	858;"	d	file:
+__Pyx_XDECREF	sinobot_ctpn/utils/bbox/bbox.c	870;"	d	file:
+__Pyx_XDECREF	sinobot_ctpn/utils/bbox/nms.c	849;"	d	file:
+__Pyx_XDECREF	sinobot_ctpn/utils/bbox/nms.c	861;"	d	file:
+__Pyx_XDECREF_SET	sinobot_ctpn/utils/bbox/bbox.c	874;"	d	file:
+__Pyx_XDECREF_SET	sinobot_ctpn/utils/bbox/nms.c	865;"	d	file:
+__Pyx_XGIVEREF	sinobot_ctpn/utils/bbox/bbox.c	860;"	d	file:
+__Pyx_XGIVEREF	sinobot_ctpn/utils/bbox/bbox.c	872;"	d	file:
+__Pyx_XGIVEREF	sinobot_ctpn/utils/bbox/nms.c	851;"	d	file:
+__Pyx_XGIVEREF	sinobot_ctpn/utils/bbox/nms.c	863;"	d	file:
+__Pyx_XGOTREF	sinobot_ctpn/utils/bbox/bbox.c	859;"	d	file:
+__Pyx_XGOTREF	sinobot_ctpn/utils/bbox/bbox.c	871;"	d	file:
+__Pyx_XGOTREF	sinobot_ctpn/utils/bbox/nms.c	850;"	d	file:
+__Pyx_XGOTREF	sinobot_ctpn/utils/bbox/nms.c	862;"	d	file:
+__Pyx_XINCREF	sinobot_ctpn/utils/bbox/bbox.c	857;"	d	file:
+__Pyx_XINCREF	sinobot_ctpn/utils/bbox/bbox.c	869;"	d	file:
+__Pyx_XINCREF	sinobot_ctpn/utils/bbox/nms.c	848;"	d	file:
+__Pyx_XINCREF	sinobot_ctpn/utils/bbox/nms.c	860;"	d	file:
+__Pyx_ZeroBuffer	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE void __Pyx_ZeroBuffer(Py_buffer* buf) {$/;"	f	file:
+__Pyx_ZeroBuffer	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE void __Pyx_ZeroBuffer(Py_buffer* buf) {$/;"	f	file:
+__Pyx__PyObject_CallOneArg	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject* __Pyx__PyObject_CallOneArg(PyObject *func, PyObject *arg) {$/;"	f	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/bbox.c	/^        static CYTHON_INLINE double __Pyx_c_abs(__pyx_t_double_complex z) {$/;"	f	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/bbox.c	1132;"	d	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/bbox.c	1139;"	d	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/nms.c	/^        static CYTHON_INLINE double __Pyx_c_abs(__pyx_t_double_complex z) {$/;"	f	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/nms.c	1166;"	d	file:
+__Pyx_c_abs	sinobot_ctpn/utils/bbox/nms.c	1173;"	d	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/bbox.c	/^        static CYTHON_INLINE float __Pyx_c_absf(__pyx_t_float_complex z) {$/;"	f	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/bbox.c	1091;"	d	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/bbox.c	1098;"	d	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/nms.c	/^        static CYTHON_INLINE float __Pyx_c_absf(__pyx_t_float_complex z) {$/;"	f	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/nms.c	1125;"	d	file:
+__Pyx_c_absf	sinobot_ctpn/utils/bbox/nms.c	1132;"	d	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_conj(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/bbox.c	1130;"	d	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/bbox.c	1137;"	d	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_conj(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/nms.c	1164;"	d	file:
+__Pyx_c_conj	sinobot_ctpn/utils/bbox/nms.c	1171;"	d	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_conjf(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/bbox.c	1089;"	d	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/bbox.c	1096;"	d	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_conjf(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/nms.c	1123;"	d	file:
+__Pyx_c_conjf	sinobot_ctpn/utils/bbox/nms.c	1130;"	d	file:
+__Pyx_c_diff	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_diff(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_diff	sinobot_ctpn/utils/bbox/bbox.c	1124;"	d	file:
+__Pyx_c_diff	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_diff(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_diff	sinobot_ctpn/utils/bbox/nms.c	1158;"	d	file:
+__Pyx_c_difff	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_difff(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_difff	sinobot_ctpn/utils/bbox/bbox.c	1083;"	d	file:
+__Pyx_c_difff	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_difff(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_difff	sinobot_ctpn/utils/bbox/nms.c	1117;"	d	file:
+__Pyx_c_eq	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE int __Pyx_c_eq(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_eq	sinobot_ctpn/utils/bbox/bbox.c	1122;"	d	file:
+__Pyx_c_eq	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE int __Pyx_c_eq(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_eq	sinobot_ctpn/utils/bbox/nms.c	1156;"	d	file:
+__Pyx_c_eqf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE int __Pyx_c_eqf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_eqf	sinobot_ctpn/utils/bbox/bbox.c	1081;"	d	file:
+__Pyx_c_eqf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE int __Pyx_c_eqf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_eqf	sinobot_ctpn/utils/bbox/nms.c	1115;"	d	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE int __Pyx_c_is_zero(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/bbox.c	1129;"	d	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/bbox.c	1136;"	d	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE int __Pyx_c_is_zero(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/nms.c	1163;"	d	file:
+__Pyx_c_is_zero	sinobot_ctpn/utils/bbox/nms.c	1170;"	d	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE int __Pyx_c_is_zerof(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/bbox.c	1088;"	d	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/bbox.c	1095;"	d	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE int __Pyx_c_is_zerof(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/nms.c	1122;"	d	file:
+__Pyx_c_is_zerof	sinobot_ctpn/utils/bbox/nms.c	1129;"	d	file:
+__Pyx_c_neg	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_neg(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_neg	sinobot_ctpn/utils/bbox/bbox.c	1127;"	d	file:
+__Pyx_c_neg	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_neg(__pyx_t_double_complex a) {$/;"	f	file:
+__Pyx_c_neg	sinobot_ctpn/utils/bbox/nms.c	1161;"	d	file:
+__Pyx_c_negf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_negf(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_negf	sinobot_ctpn/utils/bbox/bbox.c	1086;"	d	file:
+__Pyx_c_negf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_negf(__pyx_t_float_complex a) {$/;"	f	file:
+__Pyx_c_negf	sinobot_ctpn/utils/bbox/nms.c	1120;"	d	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/bbox.c	/^        static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_pow(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/bbox.c	1133;"	d	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/bbox.c	1140;"	d	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/nms.c	/^        static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_pow(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/nms.c	1167;"	d	file:
+__Pyx_c_pow	sinobot_ctpn/utils/bbox/nms.c	1174;"	d	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/bbox.c	/^        static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_powf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/bbox.c	1092;"	d	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/bbox.c	1099;"	d	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/nms.c	/^        static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_powf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/nms.c	1126;"	d	file:
+__Pyx_c_powf	sinobot_ctpn/utils/bbox/nms.c	1133;"	d	file:
+__Pyx_c_prod	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_prod(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_prod	sinobot_ctpn/utils/bbox/bbox.c	1125;"	d	file:
+__Pyx_c_prod	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_prod(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_prod	sinobot_ctpn/utils/bbox/nms.c	1159;"	d	file:
+__Pyx_c_prodf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_prodf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_prodf	sinobot_ctpn/utils/bbox/bbox.c	1084;"	d	file:
+__Pyx_c_prodf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_prodf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_prodf	sinobot_ctpn/utils/bbox/nms.c	1118;"	d	file:
+__Pyx_c_quot	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_quot(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_quot	sinobot_ctpn/utils/bbox/bbox.c	1126;"	d	file:
+__Pyx_c_quot	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_quot(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_quot	sinobot_ctpn/utils/bbox/nms.c	1160;"	d	file:
+__Pyx_c_quotf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_quotf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_quotf	sinobot_ctpn/utils/bbox/bbox.c	1085;"	d	file:
+__Pyx_c_quotf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_quotf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_quotf	sinobot_ctpn/utils/bbox/nms.c	1119;"	d	file:
+__Pyx_c_sum	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_sum(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_sum	sinobot_ctpn/utils/bbox/bbox.c	1123;"	d	file:
+__Pyx_c_sum	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_sum(__pyx_t_double_complex a, __pyx_t_double_complex b) {$/;"	f	file:
+__Pyx_c_sum	sinobot_ctpn/utils/bbox/nms.c	1157;"	d	file:
+__Pyx_c_sumf	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_sumf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_sumf	sinobot_ctpn/utils/bbox/bbox.c	1082;"	d	file:
+__Pyx_c_sumf	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_sumf(__pyx_t_float_complex a, __pyx_t_float_complex b) {$/;"	f	file:
+__Pyx_c_sumf	sinobot_ctpn/utils/bbox/nms.c	1116;"	d	file:
+__Pyx_check_binary_version	sinobot_ctpn/utils/bbox/bbox.c	/^      static int __Pyx_check_binary_version(void) {$/;"	f	file:
+__Pyx_check_binary_version	sinobot_ctpn/utils/bbox/nms.c	/^          static int __Pyx_check_binary_version(void) {$/;"	f	file:
+__Pyx_fits_Py_ssize_t	sinobot_ctpn/utils/bbox/bbox.c	323;"	d	file:
+__Pyx_fits_Py_ssize_t	sinobot_ctpn/utils/bbox/nms.c	323;"	d	file:
+__Pyx_init_sys_getdefaultencoding_params	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_init_sys_getdefaultencoding_params(void) {$/;"	f	file:
+__Pyx_init_sys_getdefaultencoding_params	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_init_sys_getdefaultencoding_params(void) {$/;"	f	file:
+__Pyx_long_cast	sinobot_ctpn/utils/bbox/bbox.c	322;"	d	file:
+__Pyx_long_cast	sinobot_ctpn/utils/bbox/nms.c	322;"	d	file:
+__Pyx_minusones	sinobot_ctpn/utils/bbox/bbox.c	/^static Py_ssize_t __Pyx_minusones[] = {-1, -1, -1, -1, -1, -1, -1, -1};$/;"	v	file:
+__Pyx_minusones	sinobot_ctpn/utils/bbox/nms.c	/^static Py_ssize_t __Pyx_minusones[] = {-1, -1, -1, -1, -1, -1, -1, -1};$/;"	v	file:
+__Pyx_pad_double	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	t	typeref:struct:__anon53	file:
+__Pyx_pad_double	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	t	typeref:struct:__anon25	file:
+__Pyx_pad_float	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	t	typeref:struct:__anon52	file:
+__Pyx_pad_float	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	t	typeref:struct:__anon24	file:
+__Pyx_pad_int	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	t	typeref:struct:__anon50	file:
+__Pyx_pad_int	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	t	typeref:struct:__anon22	file:
+__Pyx_pad_long	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	t	typeref:struct:__anon51	file:
+__Pyx_pad_long	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	t	typeref:struct:__anon23	file:
+__Pyx_pad_longdouble	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	t	typeref:struct:__anon54	file:
+__Pyx_pad_longdouble	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	t	typeref:struct:__anon26	file:
+__Pyx_pad_longlong	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	t	typeref:struct:__anon56	file:
+__Pyx_pad_longlong	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	t	typeref:struct:__anon28	file:
+__Pyx_pad_short	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	t	typeref:struct:__anon49	file:
+__Pyx_pad_short	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	t	typeref:struct:__anon21	file:
+__Pyx_pad_void_p	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	t	typeref:struct:__anon55	file:
+__Pyx_pad_void_p	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	t	typeref:struct:__anon27	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	335;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	337;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	339;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	341;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	343;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	345;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/bbox.c	347;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	335;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	337;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	339;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	341;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	343;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	345;"	d	file:
+__Pyx_sst_abs	sinobot_ctpn/utils/bbox/nms.c	347;"	d	file:
+__Pyx_st_double	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	t	typeref:struct:__anon45	file:
+__Pyx_st_double	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	t	typeref:struct:__anon17	file:
+__Pyx_st_float	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	t	typeref:struct:__anon44	file:
+__Pyx_st_float	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	t	typeref:struct:__anon16	file:
+__Pyx_st_int	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	t	typeref:struct:__anon42	file:
+__Pyx_st_int	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	t	typeref:struct:__anon14	file:
+__Pyx_st_long	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	t	typeref:struct:__anon43	file:
+__Pyx_st_long	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	t	typeref:struct:__anon15	file:
+__Pyx_st_longdouble	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	t	typeref:struct:__anon46	file:
+__Pyx_st_longdouble	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	t	typeref:struct:__anon18	file:
+__Pyx_st_longlong	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	t	typeref:struct:__anon48	file:
+__Pyx_st_longlong	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	t	typeref:struct:__anon20	file:
+__Pyx_st_short	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	t	typeref:struct:__anon41	file:
+__Pyx_st_short	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	t	typeref:struct:__anon13	file:
+__Pyx_st_void_p	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	t	typeref:struct:__anon47	file:
+__Pyx_st_void_p	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	t	typeref:struct:__anon19	file:
+__Pyx_sys_getdefaultencoding_not_ascii	sinobot_ctpn/utils/bbox/bbox.c	/^static int __Pyx_sys_getdefaultencoding_not_ascii;$/;"	v	file:
+__Pyx_sys_getdefaultencoding_not_ascii	sinobot_ctpn/utils/bbox/nms.c	/^static int __Pyx_sys_getdefaultencoding_not_ascii;$/;"	v	file:
+__Pyx_truncl	sinobot_ctpn/utils/bbox/bbox.c	251;"	d	file:
+__Pyx_truncl	sinobot_ctpn/utils/bbox/bbox.c	253;"	d	file:
+__Pyx_truncl	sinobot_ctpn/utils/bbox/nms.c	251;"	d	file:
+__Pyx_truncl	sinobot_ctpn/utils/bbox/nms.c	253;"	d	file:
+__Pyx_uchar_cast	sinobot_ctpn/utils/bbox/bbox.c	321;"	d	file:
+__Pyx_uchar_cast	sinobot_ctpn/utils/bbox/nms.c	321;"	d	file:
+__Pyx_void_to_None	sinobot_ctpn/utils/bbox/bbox.c	223;"	d	file:
+__Pyx_void_to_None	sinobot_ctpn/utils/bbox/nms.c	223;"	d	file:
+__Pyx_zeros	sinobot_ctpn/utils/bbox/bbox.c	/^static Py_ssize_t __Pyx_zeros[] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v	file:
+__Pyx_zeros	sinobot_ctpn/utils/bbox/nms.c	/^static Py_ssize_t __Pyx_zeros[] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v	file:
+__cdecl	sinobot_ctpn/utils/bbox/bbox.c	29;"	d	file:
+__cdecl	sinobot_ctpn/utils/bbox/nms.c	29;"	d	file:
+__fastcall	sinobot_ctpn/utils/bbox/bbox.c	32;"	d	file:
+__fastcall	sinobot_ctpn/utils/bbox/nms.c	32;"	d	file:
+__init__	sinobot_ctpn/utils/dataset/data_util.py	/^    def __init__(self, generator,$/;"	m	class:GeneratorEnqueuer
+__init__	sinobot_ctpn/utils/text_connector/detectors.py	/^    def __init__(self, DETECT_MODE="H"):$/;"	m	class:TextDetector
+__init__	sinobot_ctpn/utils/text_connector/other.py	/^    def __init__(self, graph):$/;"	m	class:Graph
+__init__	sinobot_ctpn/utils/text_connector/text_proposal_connector.py	/^    def __init__(self):$/;"	m	class:TextProposalConnector
+__init__	sinobot_ctpn/utils/text_connector/text_proposal_connector_oriented.py	/^    def __init__(self):$/;"	m	class:TextProposalConnector
+__init__	validation/calamari_utils.py	/^    def __init__(self, checkpoints=None, text_postproc=None, data_preproc=None, batch_size=1, processes=1):$/;"	m	class:Sinobot_Predictor
+__pyx_PyFloat_AsDouble	sinobot_ctpn/utils/bbox/bbox.c	391;"	d	file:
+__pyx_PyFloat_AsDouble	sinobot_ctpn/utils/bbox/bbox.c	393;"	d	file:
+__pyx_PyFloat_AsDouble	sinobot_ctpn/utils/bbox/nms.c	391;"	d	file:
+__pyx_PyFloat_AsDouble	sinobot_ctpn/utils/bbox/nms.c	393;"	d	file:
+__pyx_PyFloat_AsFloat	sinobot_ctpn/utils/bbox/bbox.c	395;"	d	file:
+__pyx_PyFloat_AsFloat	sinobot_ctpn/utils/bbox/nms.c	395;"	d	file:
+__pyx_b	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_b;$/;"	v	file:
+__pyx_b	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_b;$/;"	v	file:
+__pyx_bisect_code_objects	sinobot_ctpn/utils/bbox/bbox.c	/^      static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {$/;"	f	file:
+__pyx_bisect_code_objects	sinobot_ctpn/utils/bbox/nms.c	/^          static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {$/;"	f	file:
+__pyx_buffmt_parse_array	sinobot_ctpn/utils/bbox/bbox.c	/^__pyx_buffmt_parse_array(__Pyx_BufFmt_Context* ctx, const char** tsp)$/;"	f	file:
+__pyx_buffmt_parse_array	sinobot_ctpn/utils/bbox/nms.c	/^__pyx_buffmt_parse_array(__Pyx_BufFmt_Context* ctx, const char** tsp)$/;"	f	file:
+__pyx_builtin_RuntimeError	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_builtin_RuntimeError;$/;"	v	file:
+__pyx_builtin_RuntimeError	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_builtin_RuntimeError;$/;"	v	file:
+__pyx_builtin_ValueError	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_builtin_ValueError;$/;"	v	file:
+__pyx_builtin_ValueError	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_builtin_ValueError;$/;"	v	file:
+__pyx_builtin_range	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_builtin_range;$/;"	v	file:
+__pyx_builtin_range	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_builtin_range;$/;"	v	file:
+__pyx_cfilenm	sinobot_ctpn/utils/bbox/bbox.c	/^static const char * __pyx_cfilenm= __FILE__;$/;"	v	file:
+__pyx_cfilenm	sinobot_ctpn/utils/bbox/nms.c	/^static const char * __pyx_cfilenm= __FILE__;$/;"	v	file:
+__pyx_clineno	sinobot_ctpn/utils/bbox/bbox.c	/^static int __pyx_clineno = 0;$/;"	v	file:
+__pyx_clineno	sinobot_ctpn/utils/bbox/nms.c	/^static int __pyx_clineno = 0;$/;"	v	file:
+__pyx_code_cache	sinobot_ctpn/utils/bbox/bbox.c	/^static struct __Pyx_CodeObjectCache __pyx_code_cache = {0,0,NULL};$/;"	v	typeref:struct:__Pyx_CodeObjectCache	file:
+__pyx_code_cache	sinobot_ctpn/utils/bbox/nms.c	/^static struct __Pyx_CodeObjectCache __pyx_code_cache = {0,0,NULL};$/;"	v	typeref:struct:__Pyx_CodeObjectCache	file:
+__pyx_codeobj__10	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_codeobj__10;$/;"	v	file:
+__pyx_codeobj__30	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_codeobj__30;$/;"	v	file:
+__pyx_codeobj__32	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_codeobj__32;$/;"	v	file:
+__pyx_codeobj__8	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_codeobj__8;$/;"	v	file:
+__pyx_d	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_d;$/;"	v	file:
+__pyx_d	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_d;$/;"	v	file:
+__pyx_doc_4bbox_2bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static char __pyx_doc_4bbox_2bbox_intersections[] = "\\n    For each query box compute the intersection ratio covered by boxes\\n    ----------\\n    Parameters\\n    ----------\\n    boxes: (N, 4) ndarray of float\\n    query_boxes: (K, 4) ndarray of float\\n    Returns\\n    -------\\n    overlaps: (N, K) ndarray of intersec between boxes and query_boxes\\n    ";$/;"	v	file:
+__pyx_doc_4bbox_bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static char __pyx_doc_4bbox_bbox_overlaps[] = "\\n    Parameters\\n    ----------\\n    boxes: (N, 4) ndarray of float\\n    query_boxes: (K, 4) ndarray of float\\n    Returns\\n    -------\\n    overlaps: (N, K) ndarray of overlap between boxes and query_boxes\\n    ";$/;"	v	file:
+__pyx_empty_bytes	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_empty_bytes;$/;"	v	file:
+__pyx_empty_bytes	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_empty_bytes;$/;"	v	file:
+__pyx_empty_tuple	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_empty_tuple;$/;"	v	file:
+__pyx_empty_tuple	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_empty_tuple;$/;"	v	file:
+__pyx_empty_unicode	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_empty_unicode;$/;"	v	file:
+__pyx_empty_unicode	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_empty_unicode;$/;"	v	file:
+__pyx_f	sinobot_ctpn/utils/bbox/bbox.c	/^static const char *__pyx_f[] = {$/;"	v	file:
+__pyx_f	sinobot_ctpn/utils/bbox/nms.c	/^static const char *__pyx_f[] = {$/;"	v	file:
+__pyx_f_3nms_max	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE __pyx_t_5numpy_float32_t __pyx_f_3nms_max(__pyx_t_5numpy_float32_t __pyx_v_a, __pyx_t_5numpy_float32_t __pyx_v_b) {$/;"	f	file:
+__pyx_f_3nms_min	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE __pyx_t_5numpy_float32_t __pyx_f_3nms_min(__pyx_t_5numpy_float32_t __pyx_v_a, __pyx_t_5numpy_float32_t __pyx_v_b) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew1	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew1	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew2	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew2	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew3	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew3	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew4	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew4	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew5	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {$/;"	f	file:
+__pyx_f_5numpy_PyArray_MultiIterNew5	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {$/;"	f	file:
+__pyx_f_5numpy__util_dtypestring	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx_v_descr, char *__pyx_v_f, char *__pyx_v_end, int *__pyx_v_offset) {$/;"	f	file:
+__pyx_f_5numpy__util_dtypestring	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx_v_descr, char *__pyx_v_f, char *__pyx_v_end, int *__pyx_v_offset) {$/;"	f	file:
+__pyx_f_5numpy_get_array_base	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__pyx_v_arr) {$/;"	f	file:
+__pyx_f_5numpy_get_array_base	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__pyx_v_arr) {$/;"	f	file:
+__pyx_f_5numpy_set_array_base	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {$/;"	f	file:
+__pyx_f_5numpy_set_array_base	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {$/;"	f	file:
+__pyx_filename	sinobot_ctpn/utils/bbox/bbox.c	/^static const char *__pyx_filename;$/;"	v	file:
+__pyx_filename	sinobot_ctpn/utils/bbox/nms.c	/^static const char *__pyx_filename;$/;"	v	file:
+__pyx_find_code_object	sinobot_ctpn/utils/bbox/bbox.c	/^static PyCodeObject *__pyx_find_code_object(int code_line) {$/;"	f	file:
+__pyx_find_code_object	sinobot_ctpn/utils/bbox/nms.c	/^static PyCodeObject *__pyx_find_code_object(int code_line) {$/;"	f	file:
+__pyx_float_0_95	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_float_0_95;$/;"	v	file:
+__pyx_insert_code_object	sinobot_ctpn/utils/bbox/bbox.c	/^static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object) {$/;"	f	file:
+__pyx_insert_code_object	sinobot_ctpn/utils/bbox/nms.c	/^static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object) {$/;"	f	file:
+__pyx_int_0	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_0;$/;"	v	file:
+__pyx_int_1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_1;$/;"	v	file:
+__pyx_int_2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_2;$/;"	v	file:
+__pyx_int_3	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_3;$/;"	v	file:
+__pyx_int_4	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_4;$/;"	v	file:
+__pyx_int_neg_1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_int_neg_1;$/;"	v	file:
+__pyx_k_DTYPE	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_DTYPE[] = "DTYPE";$/;"	v	file:
+__pyx_k_Format_string_allocated_too_shor	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";$/;"	v	file:
+__pyx_k_Format_string_allocated_too_shor	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";$/;"	v	file:
+__pyx_k_Format_string_allocated_too_shor_2	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";$/;"	v	file:
+__pyx_k_Format_string_allocated_too_shor_2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";$/;"	v	file:
+__pyx_k_K	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_K[] = "K";$/;"	v	file:
+__pyx_k_N	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_N[] = "N";$/;"	v	file:
+__pyx_k_Non_native_byte_order_not_suppor	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";$/;"	v	file:
+__pyx_k_Non_native_byte_order_not_suppor	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";$/;"	v	file:
+__pyx_k_RuntimeError	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_RuntimeError[] = "RuntimeError";$/;"	v	file:
+__pyx_k_RuntimeError	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_RuntimeError[] = "RuntimeError";$/;"	v	file:
+__pyx_k_ValueError	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_ValueError[] = "ValueError";$/;"	v	file:
+__pyx_k_ValueError	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ValueError[] = "ValueError";$/;"	v	file:
+__pyx_k_areas	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_areas[] = "areas";$/;"	v	file:
+__pyx_k_argsort	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_argsort[] = "argsort";$/;"	v	file:
+__pyx_k_bbox	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_bbox[] = "bbox";$/;"	v	file:
+__pyx_k_bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_bbox_intersections[] = "bbox_intersections";$/;"	v	file:
+__pyx_k_bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_bbox_overlaps[] = "bbox_overlaps";$/;"	v	file:
+__pyx_k_box_area	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_box_area[] = "box_area";$/;"	v	file:
+__pyx_k_boxes	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_boxes[] = "boxes";$/;"	v	file:
+__pyx_k_dets	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_dets[] = "dets";$/;"	v	file:
+__pyx_k_dtype	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_dtype[] = "dtype";$/;"	v	file:
+__pyx_k_dtype	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_dtype[] = "dtype";$/;"	v	file:
+__pyx_k_float	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_float[] = "float";$/;"	v	file:
+__pyx_k_h	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_h[] = "h";$/;"	v	file:
+__pyx_k_i	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_i[] = "_i";$/;"	v	file:
+__pyx_k_i_2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_i_2[] = "i";$/;"	v	file:
+__pyx_k_iarea	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_iarea[] = "iarea";$/;"	v	file:
+__pyx_k_ih	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_ih[] = "ih";$/;"	v	file:
+__pyx_k_import	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_import[] = "__import__";$/;"	v	file:
+__pyx_k_import	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_import[] = "__import__";$/;"	v	file:
+__pyx_k_int	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_int[] = "int";$/;"	v	file:
+__pyx_k_inter	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_inter[] = "inter";$/;"	v	file:
+__pyx_k_intersec	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_intersec[] = "intersec";$/;"	v	file:
+__pyx_k_iw	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_iw[] = "iw";$/;"	v	file:
+__pyx_k_ix1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ix1[] = "ix1";$/;"	v	file:
+__pyx_k_ix2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ix2[] = "ix2";$/;"	v	file:
+__pyx_k_iy1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_iy1[] = "iy1";$/;"	v	file:
+__pyx_k_iy2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_iy2[] = "iy2";$/;"	v	file:
+__pyx_k_j	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_j[] = "_j";$/;"	v	file:
+__pyx_k_j_2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_j_2[] = "j";$/;"	v	file:
+__pyx_k_k	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_k[] = "k";$/;"	v	file:
+__pyx_k_keep	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_keep[] = "keep";$/;"	v	file:
+__pyx_k_main	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_main[] = "__main__";$/;"	v	file:
+__pyx_k_main	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_main[] = "__main__";$/;"	v	file:
+__pyx_k_media_D_code_banjin_text_detect	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_media_D_code_banjin_text_detect[] = "\/media\/D\/code\/banjin\/text-detection-ctpn\/utils\/bbox\/bbox.pyx";$/;"	v	file:
+__pyx_k_media_D_code_banjin_text_detect	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_media_D_code_banjin_text_detect[] = "\/media\/D\/code\/banjin\/text-detection-ctpn\/utils\/bbox\/nms.pyx";$/;"	v	file:
+__pyx_k_n	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_n[] = "n";$/;"	v	file:
+__pyx_k_ndarray_is_not_C_contiguous	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";$/;"	v	file:
+__pyx_k_ndarray_is_not_C_contiguous	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";$/;"	v	file:
+__pyx_k_ndarray_is_not_Fortran_contiguou	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";$/;"	v	file:
+__pyx_k_ndarray_is_not_Fortran_contiguou	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";$/;"	v	file:
+__pyx_k_ndets	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ndets[] = "ndets";$/;"	v	file:
+__pyx_k_nms	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_nms[] = "nms";$/;"	v	file:
+__pyx_k_nms_new	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_nms_new[] = "nms_new";$/;"	v	file:
+__pyx_k_np	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_np[] = "np";$/;"	v	file:
+__pyx_k_np	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_np[] = "np";$/;"	v	file:
+__pyx_k_numpy	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_numpy[] = "numpy";$/;"	v	file:
+__pyx_k_numpy	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_numpy[] = "numpy";$/;"	v	file:
+__pyx_k_order	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_order[] = "order";$/;"	v	file:
+__pyx_k_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_overlaps[] = "overlaps";$/;"	v	file:
+__pyx_k_ovr	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ovr[] = "ovr";$/;"	v	file:
+__pyx_k_ovr1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ovr1[] = "ovr1";$/;"	v	file:
+__pyx_k_ovr2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_ovr2[] = "ovr2";$/;"	v	file:
+__pyx_k_query_boxes	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_query_boxes[] = "query_boxes";$/;"	v	file:
+__pyx_k_range	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_range[] = "range";$/;"	v	file:
+__pyx_k_range	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_range[] = "range";$/;"	v	file:
+__pyx_k_scores	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_scores[] = "scores";$/;"	v	file:
+__pyx_k_suppressed	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_suppressed[] = "suppressed";$/;"	v	file:
+__pyx_k_test	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_test[] = "__test__";$/;"	v	file:
+__pyx_k_test	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_test[] = "__test__";$/;"	v	file:
+__pyx_k_thresh	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_thresh[] = "thresh";$/;"	v	file:
+__pyx_k_ua	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_ua[] = "ua";$/;"	v	file:
+__pyx_k_unknown_dtype_code_in_numpy_pxd	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";$/;"	v	file:
+__pyx_k_unknown_dtype_code_in_numpy_pxd	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";$/;"	v	file:
+__pyx_k_w	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_w[] = "w";$/;"	v	file:
+__pyx_k_x1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_x1[] = "x1";$/;"	v	file:
+__pyx_k_x2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_x2[] = "x2";$/;"	v	file:
+__pyx_k_xx1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_xx1[] = "xx1";$/;"	v	file:
+__pyx_k_xx2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_xx2[] = "xx2";$/;"	v	file:
+__pyx_k_y1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_y1[] = "y1";$/;"	v	file:
+__pyx_k_y2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_y2[] = "y2";$/;"	v	file:
+__pyx_k_yy1	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_yy1[] = "yy1";$/;"	v	file:
+__pyx_k_yy2	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_yy2[] = "yy2";$/;"	v	file:
+__pyx_k_zeros	sinobot_ctpn/utils/bbox/bbox.c	/^static const char __pyx_k_zeros[] = "zeros";$/;"	v	file:
+__pyx_k_zeros	sinobot_ctpn/utils/bbox/nms.c	/^static const char __pyx_k_zeros[] = "zeros";$/;"	v	file:
+__pyx_kp_s_media_D_code_banjin_text_detect	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_s_media_D_code_banjin_text_detect;$/;"	v	file:
+__pyx_kp_s_media_D_code_banjin_text_detect	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_s_media_D_code_banjin_text_detect;$/;"	v	file:
+__pyx_kp_u_Format_string_allocated_too_shor	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;$/;"	v	file:
+__pyx_kp_u_Format_string_allocated_too_shor	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;$/;"	v	file:
+__pyx_kp_u_Format_string_allocated_too_shor_2	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;$/;"	v	file:
+__pyx_kp_u_Format_string_allocated_too_shor_2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;$/;"	v	file:
+__pyx_kp_u_Non_native_byte_order_not_suppor	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_Non_native_byte_order_not_suppor;$/;"	v	file:
+__pyx_kp_u_Non_native_byte_order_not_suppor	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_Non_native_byte_order_not_suppor;$/;"	v	file:
+__pyx_kp_u_ndarray_is_not_C_contiguous	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_ndarray_is_not_C_contiguous;$/;"	v	file:
+__pyx_kp_u_ndarray_is_not_C_contiguous	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_ndarray_is_not_C_contiguous;$/;"	v	file:
+__pyx_kp_u_ndarray_is_not_Fortran_contiguou	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_ndarray_is_not_Fortran_contiguou;$/;"	v	file:
+__pyx_kp_u_ndarray_is_not_Fortran_contiguou	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_ndarray_is_not_Fortran_contiguou;$/;"	v	file:
+__pyx_kp_u_unknown_dtype_code_in_numpy_pxd	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;$/;"	v	file:
+__pyx_kp_u_unknown_dtype_code_in_numpy_pxd	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;$/;"	v	file:
+__pyx_lineno	sinobot_ctpn/utils/bbox/bbox.c	/^static int __pyx_lineno;$/;"	v	file:
+__pyx_lineno	sinobot_ctpn/utils/bbox/nms.c	/^static int __pyx_lineno;$/;"	v	file:
+__pyx_m	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_m;$/;"	v	file:
+__pyx_m	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_m;$/;"	v	file:
+__pyx_mdef_3nms_1nms	sinobot_ctpn/utils/bbox/nms.c	/^static PyMethodDef __pyx_mdef_3nms_1nms = {"nms", (PyCFunction)__pyx_pw_3nms_1nms, METH_VARARGS|METH_KEYWORDS, 0};$/;"	v	file:
+__pyx_mdef_3nms_3nms_new	sinobot_ctpn/utils/bbox/nms.c	/^static PyMethodDef __pyx_mdef_3nms_3nms_new = {"nms_new", (PyCFunction)__pyx_pw_3nms_3nms_new, METH_VARARGS|METH_KEYWORDS, 0};$/;"	v	file:
+__pyx_mdef_4bbox_1bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static PyMethodDef __pyx_mdef_4bbox_1bbox_overlaps = {"bbox_overlaps", (PyCFunction)__pyx_pw_4bbox_1bbox_overlaps, METH_VARARGS|METH_KEYWORDS, __pyx_doc_4bbox_bbox_overlaps};$/;"	v	file:
+__pyx_mdef_4bbox_3bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static PyMethodDef __pyx_mdef_4bbox_3bbox_intersections = {"bbox_intersections", (PyCFunction)__pyx_pw_4bbox_3bbox_intersections, METH_VARARGS|METH_KEYWORDS, __pyx_doc_4bbox_2bbox_intersections};$/;"	v	file:
+__pyx_methods	sinobot_ctpn/utils/bbox/bbox.c	/^static PyMethodDef __pyx_methods[] = {$/;"	v	file:
+__pyx_methods	sinobot_ctpn/utils/bbox/nms.c	/^static PyMethodDef __pyx_methods[] = {$/;"	v	file:
+__pyx_module_is_main_bbox	sinobot_ctpn/utils/bbox/bbox.c	/^int __pyx_module_is_main_bbox = 0;$/;"	v
+__pyx_module_is_main_nms	sinobot_ctpn/utils/bbox/nms.c	/^int __pyx_module_is_main_nms = 0;$/;"	v
+__pyx_moduledef	sinobot_ctpn/utils/bbox/bbox.c	/^static struct PyModuleDef __pyx_moduledef = {$/;"	v	typeref:struct:PyModuleDef	file:
+__pyx_moduledef	sinobot_ctpn/utils/bbox/nms.c	/^static struct PyModuleDef __pyx_moduledef = {$/;"	v	typeref:struct:PyModuleDef	file:
+__pyx_n_s_DTYPE	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_DTYPE;$/;"	v	file:
+__pyx_n_s_K	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_K;$/;"	v	file:
+__pyx_n_s_N	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_N;$/;"	v	file:
+__pyx_n_s_RuntimeError	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_RuntimeError;$/;"	v	file:
+__pyx_n_s_RuntimeError	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_RuntimeError;$/;"	v	file:
+__pyx_n_s_ValueError	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_ValueError;$/;"	v	file:
+__pyx_n_s_ValueError	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ValueError;$/;"	v	file:
+__pyx_n_s_areas	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_areas;$/;"	v	file:
+__pyx_n_s_argsort	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_argsort;$/;"	v	file:
+__pyx_n_s_bbox	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_bbox;$/;"	v	file:
+__pyx_n_s_bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_bbox_intersections;$/;"	v	file:
+__pyx_n_s_bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_bbox_overlaps;$/;"	v	file:
+__pyx_n_s_box_area	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_box_area;$/;"	v	file:
+__pyx_n_s_boxes	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_boxes;$/;"	v	file:
+__pyx_n_s_dets	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_dets;$/;"	v	file:
+__pyx_n_s_dtype	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_dtype;$/;"	v	file:
+__pyx_n_s_dtype	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_dtype;$/;"	v	file:
+__pyx_n_s_float	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_float;$/;"	v	file:
+__pyx_n_s_h	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_h;$/;"	v	file:
+__pyx_n_s_i	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_i;$/;"	v	file:
+__pyx_n_s_i_2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_i_2;$/;"	v	file:
+__pyx_n_s_iarea	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_iarea;$/;"	v	file:
+__pyx_n_s_ih	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_ih;$/;"	v	file:
+__pyx_n_s_import	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_import;$/;"	v	file:
+__pyx_n_s_import	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_import;$/;"	v	file:
+__pyx_n_s_int	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_int;$/;"	v	file:
+__pyx_n_s_inter	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_inter;$/;"	v	file:
+__pyx_n_s_intersec	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_intersec;$/;"	v	file:
+__pyx_n_s_iw	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_iw;$/;"	v	file:
+__pyx_n_s_ix1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ix1;$/;"	v	file:
+__pyx_n_s_ix2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ix2;$/;"	v	file:
+__pyx_n_s_iy1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_iy1;$/;"	v	file:
+__pyx_n_s_iy2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_iy2;$/;"	v	file:
+__pyx_n_s_j	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_j;$/;"	v	file:
+__pyx_n_s_j_2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_j_2;$/;"	v	file:
+__pyx_n_s_k	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_k;$/;"	v	file:
+__pyx_n_s_keep	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_keep;$/;"	v	file:
+__pyx_n_s_main	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_main;$/;"	v	file:
+__pyx_n_s_main	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_main;$/;"	v	file:
+__pyx_n_s_n	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_n;$/;"	v	file:
+__pyx_n_s_ndets	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ndets;$/;"	v	file:
+__pyx_n_s_nms	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_nms;$/;"	v	file:
+__pyx_n_s_nms_new	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_nms_new;$/;"	v	file:
+__pyx_n_s_np	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_np;$/;"	v	file:
+__pyx_n_s_np	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_np;$/;"	v	file:
+__pyx_n_s_numpy	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_numpy;$/;"	v	file:
+__pyx_n_s_numpy	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_numpy;$/;"	v	file:
+__pyx_n_s_order	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_order;$/;"	v	file:
+__pyx_n_s_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_overlaps;$/;"	v	file:
+__pyx_n_s_ovr	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ovr;$/;"	v	file:
+__pyx_n_s_ovr1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ovr1;$/;"	v	file:
+__pyx_n_s_ovr2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_ovr2;$/;"	v	file:
+__pyx_n_s_query_boxes	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_query_boxes;$/;"	v	file:
+__pyx_n_s_range	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_range;$/;"	v	file:
+__pyx_n_s_range	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_range;$/;"	v	file:
+__pyx_n_s_scores	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_scores;$/;"	v	file:
+__pyx_n_s_suppressed	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_suppressed;$/;"	v	file:
+__pyx_n_s_test	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_test;$/;"	v	file:
+__pyx_n_s_test	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_test;$/;"	v	file:
+__pyx_n_s_thresh	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_thresh;$/;"	v	file:
+__pyx_n_s_ua	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_ua;$/;"	v	file:
+__pyx_n_s_w	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_w;$/;"	v	file:
+__pyx_n_s_x1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_x1;$/;"	v	file:
+__pyx_n_s_x2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_x2;$/;"	v	file:
+__pyx_n_s_xx1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_xx1;$/;"	v	file:
+__pyx_n_s_xx2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_xx2;$/;"	v	file:
+__pyx_n_s_y1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_y1;$/;"	v	file:
+__pyx_n_s_y2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_y2;$/;"	v	file:
+__pyx_n_s_yy1	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_yy1;$/;"	v	file:
+__pyx_n_s_yy2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_yy2;$/;"	v	file:
+__pyx_n_s_zeros	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_n_s_zeros;$/;"	v	file:
+__pyx_n_s_zeros	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_n_s_zeros;$/;"	v	file:
+__pyx_pf_3nms_2nms_new	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_pf_3nms_2nms_new(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dets, PyObject *__pyx_v_thresh) {$/;"	f	file:
+__pyx_pf_3nms_nms	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_pf_3nms_nms(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dets, PyObject *__pyx_v_thresh) {$/;"	f	file:
+__pyx_pf_4bbox_2bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_pf_4bbox_2bbox_intersections(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_boxes, PyArrayObject *__pyx_v_query_boxes) {$/;"	f	file:
+__pyx_pf_4bbox_bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_pf_4bbox_bbox_overlaps(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_boxes, PyArrayObject *__pyx_v_query_boxes) {$/;"	f	file:
+__pyx_pf_5numpy_7ndarray_2__releasebuffer__	sinobot_ctpn/utils/bbox/bbox.c	/^static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info) {$/;"	f	file:
+__pyx_pf_5numpy_7ndarray_2__releasebuffer__	sinobot_ctpn/utils/bbox/nms.c	/^static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info) {$/;"	f	file:
+__pyx_pf_5numpy_7ndarray___getbuffer__	sinobot_ctpn/utils/bbox/bbox.c	/^static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags) {$/;"	f	file:
+__pyx_pf_5numpy_7ndarray___getbuffer__	sinobot_ctpn/utils/bbox/nms.c	/^static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags) {$/;"	f	file:
+__pyx_ptype_5numpy_broadcast	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_5numpy_broadcast = 0;$/;"	v	file:
+__pyx_ptype_5numpy_broadcast	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_5numpy_broadcast = 0;$/;"	v	file:
+__pyx_ptype_5numpy_dtype	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_5numpy_dtype = 0;$/;"	v	file:
+__pyx_ptype_5numpy_dtype	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_5numpy_dtype = 0;$/;"	v	file:
+__pyx_ptype_5numpy_flatiter	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_5numpy_flatiter = 0;$/;"	v	file:
+__pyx_ptype_5numpy_flatiter	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_5numpy_flatiter = 0;$/;"	v	file:
+__pyx_ptype_5numpy_ndarray	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;$/;"	v	file:
+__pyx_ptype_5numpy_ndarray	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;$/;"	v	file:
+__pyx_ptype_5numpy_ufunc	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;$/;"	v	file:
+__pyx_ptype_5numpy_ufunc	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;$/;"	v	file:
+__pyx_ptype_7cpython_4type_type	sinobot_ctpn/utils/bbox/bbox.c	/^static PyTypeObject *__pyx_ptype_7cpython_4type_type = 0;$/;"	v	file:
+__pyx_ptype_7cpython_4type_type	sinobot_ctpn/utils/bbox/nms.c	/^static PyTypeObject *__pyx_ptype_7cpython_4type_type = 0;$/;"	v	file:
+__pyx_pw_3nms_1nms	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_pw_3nms_1nms(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	f	file:
+__pyx_pw_3nms_3nms_new	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_pw_3nms_3nms_new(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	f	file:
+__pyx_pw_4bbox_1bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_pw_4bbox_1bbox_overlaps(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	f	file:
+__pyx_pw_4bbox_3bbox_intersections	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_pw_4bbox_3bbox_intersections(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	f	file:
+__pyx_pw_5numpy_7ndarray_1__getbuffer__	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_UNUSED int __pyx_pw_5numpy_7ndarray_1__getbuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags) {$/;"	f	file:
+__pyx_pw_5numpy_7ndarray_1__getbuffer__	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_UNUSED int __pyx_pw_5numpy_7ndarray_1__getbuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags) {$/;"	f	file:
+__pyx_pw_5numpy_7ndarray_3__releasebuffer__	sinobot_ctpn/utils/bbox/bbox.c	/^static CYTHON_UNUSED void __pyx_pw_5numpy_7ndarray_3__releasebuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info) {$/;"	f	file:
+__pyx_pw_5numpy_7ndarray_3__releasebuffer__	sinobot_ctpn/utils/bbox/nms.c	/^static CYTHON_UNUSED void __pyx_pw_5numpy_7ndarray_3__releasebuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info) {$/;"	f	file:
+__pyx_slice_	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice_;$/;"	v	file:
+__pyx_slice__11	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__11;$/;"	v	file:
+__pyx_slice__12	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__12;$/;"	v	file:
+__pyx_slice__14	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__14;$/;"	v	file:
+__pyx_slice__16	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__16;$/;"	v	file:
+__pyx_slice__18	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__18;$/;"	v	file:
+__pyx_slice__20	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__20;$/;"	v	file:
+__pyx_slice__22	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__22;$/;"	v	file:
+__pyx_slice__3	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__3;$/;"	v	file:
+__pyx_slice__5	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__5;$/;"	v	file:
+__pyx_slice__7	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__7;$/;"	v	file:
+__pyx_slice__9	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_slice__9;$/;"	v	file:
+__pyx_string_tab	sinobot_ctpn/utils/bbox/bbox.c	/^static __Pyx_StringTabEntry __pyx_string_tab[] = {$/;"	v	file:
+__pyx_string_tab	sinobot_ctpn/utils/bbox/nms.c	/^static __Pyx_StringTabEntry __pyx_string_tab[] = {$/;"	v	file:
+__pyx_t_4bbox_DTYPE_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef __pyx_t_5numpy_float_t __pyx_t_4bbox_DTYPE_t;$/;"	t	file:
+__pyx_t_5numpy_cdouble_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_cdouble __pyx_t_5numpy_cdouble_t;$/;"	t	file:
+__pyx_t_5numpy_cdouble_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_cdouble __pyx_t_5numpy_cdouble_t;$/;"	t	file:
+__pyx_t_5numpy_cfloat_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_cfloat __pyx_t_5numpy_cfloat_t;$/;"	t	file:
+__pyx_t_5numpy_cfloat_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_cfloat __pyx_t_5numpy_cfloat_t;$/;"	t	file:
+__pyx_t_5numpy_clongdouble_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;$/;"	t	file:
+__pyx_t_5numpy_clongdouble_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;$/;"	t	file:
+__pyx_t_5numpy_complex_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_cdouble __pyx_t_5numpy_complex_t;$/;"	t	file:
+__pyx_t_5numpy_complex_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_cdouble __pyx_t_5numpy_complex_t;$/;"	t	file:
+__pyx_t_5numpy_double_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_double __pyx_t_5numpy_double_t;$/;"	t	file:
+__pyx_t_5numpy_double_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_double __pyx_t_5numpy_double_t;$/;"	t	file:
+__pyx_t_5numpy_float32_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_float32 __pyx_t_5numpy_float32_t;$/;"	t	file:
+__pyx_t_5numpy_float32_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_float32 __pyx_t_5numpy_float32_t;$/;"	t	file:
+__pyx_t_5numpy_float64_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_float64 __pyx_t_5numpy_float64_t;$/;"	t	file:
+__pyx_t_5numpy_float64_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_float64 __pyx_t_5numpy_float64_t;$/;"	t	file:
+__pyx_t_5numpy_float_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_double __pyx_t_5numpy_float_t;$/;"	t	file:
+__pyx_t_5numpy_float_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_double __pyx_t_5numpy_float_t;$/;"	t	file:
+__pyx_t_5numpy_int16_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_int16 __pyx_t_5numpy_int16_t;$/;"	t	file:
+__pyx_t_5numpy_int16_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_int16 __pyx_t_5numpy_int16_t;$/;"	t	file:
+__pyx_t_5numpy_int32_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_int32 __pyx_t_5numpy_int32_t;$/;"	t	file:
+__pyx_t_5numpy_int32_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_int32 __pyx_t_5numpy_int32_t;$/;"	t	file:
+__pyx_t_5numpy_int64_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_int64 __pyx_t_5numpy_int64_t;$/;"	t	file:
+__pyx_t_5numpy_int64_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_int64 __pyx_t_5numpy_int64_t;$/;"	t	file:
+__pyx_t_5numpy_int8_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_int8 __pyx_t_5numpy_int8_t;$/;"	t	file:
+__pyx_t_5numpy_int8_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_int8 __pyx_t_5numpy_int8_t;$/;"	t	file:
+__pyx_t_5numpy_int_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_long __pyx_t_5numpy_int_t;$/;"	t	file:
+__pyx_t_5numpy_int_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_long __pyx_t_5numpy_int_t;$/;"	t	file:
+__pyx_t_5numpy_intp_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_intp __pyx_t_5numpy_intp_t;$/;"	t	file:
+__pyx_t_5numpy_intp_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_intp __pyx_t_5numpy_intp_t;$/;"	t	file:
+__pyx_t_5numpy_long_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_longlong __pyx_t_5numpy_long_t;$/;"	t	file:
+__pyx_t_5numpy_long_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_longlong __pyx_t_5numpy_long_t;$/;"	t	file:
+__pyx_t_5numpy_longdouble_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_longdouble __pyx_t_5numpy_longdouble_t;$/;"	t	file:
+__pyx_t_5numpy_longdouble_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_longdouble __pyx_t_5numpy_longdouble_t;$/;"	t	file:
+__pyx_t_5numpy_longlong_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_longlong __pyx_t_5numpy_longlong_t;$/;"	t	file:
+__pyx_t_5numpy_longlong_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_longlong __pyx_t_5numpy_longlong_t;$/;"	t	file:
+__pyx_t_5numpy_uint16_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_uint16 __pyx_t_5numpy_uint16_t;$/;"	t	file:
+__pyx_t_5numpy_uint16_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_uint16 __pyx_t_5numpy_uint16_t;$/;"	t	file:
+__pyx_t_5numpy_uint32_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_uint32 __pyx_t_5numpy_uint32_t;$/;"	t	file:
+__pyx_t_5numpy_uint32_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_uint32 __pyx_t_5numpy_uint32_t;$/;"	t	file:
+__pyx_t_5numpy_uint64_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_uint64 __pyx_t_5numpy_uint64_t;$/;"	t	file:
+__pyx_t_5numpy_uint64_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_uint64 __pyx_t_5numpy_uint64_t;$/;"	t	file:
+__pyx_t_5numpy_uint8_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_uint8 __pyx_t_5numpy_uint8_t;$/;"	t	file:
+__pyx_t_5numpy_uint8_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_uint8 __pyx_t_5numpy_uint8_t;$/;"	t	file:
+__pyx_t_5numpy_uint_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_ulong __pyx_t_5numpy_uint_t;$/;"	t	file:
+__pyx_t_5numpy_uint_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_ulong __pyx_t_5numpy_uint_t;$/;"	t	file:
+__pyx_t_5numpy_uintp_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_uintp __pyx_t_5numpy_uintp_t;$/;"	t	file:
+__pyx_t_5numpy_uintp_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_uintp __pyx_t_5numpy_uintp_t;$/;"	t	file:
+__pyx_t_5numpy_ulong_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_ulonglong __pyx_t_5numpy_ulong_t;$/;"	t	file:
+__pyx_t_5numpy_ulong_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_ulonglong __pyx_t_5numpy_ulong_t;$/;"	t	file:
+__pyx_t_5numpy_ulonglong_t	sinobot_ctpn/utils/bbox/bbox.c	/^typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;$/;"	t	file:
+__pyx_t_5numpy_ulonglong_t	sinobot_ctpn/utils/bbox/nms.c	/^typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;$/;"	t	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef ::std::complex< double > __pyx_t_double_complex;$/;"	t	class:std	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef double _Complex __pyx_t_double_complex;$/;"	t	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	t	typeref:struct:__anon35	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef ::std::complex< double > __pyx_t_double_complex;$/;"	t	class:std	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef double _Complex __pyx_t_double_complex;$/;"	t	file:
+__pyx_t_double_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	t	typeref:struct:__anon7	file:
+__pyx_t_double_complex_from_parts	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(double x, double y) {$/;"	f	file:
+__pyx_t_double_complex_from_parts	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(double x, double y) {$/;"	f	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef ::std::complex< float > __pyx_t_float_complex;$/;"	t	class:std	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef float _Complex __pyx_t_float_complex;$/;"	t	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	t	typeref:struct:__anon34	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef ::std::complex< float > __pyx_t_float_complex;$/;"	t	class:std	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef float _Complex __pyx_t_float_complex;$/;"	t	file:
+__pyx_t_float_complex	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	t	typeref:struct:__anon6	file:
+__pyx_t_float_complex_from_parts	sinobot_ctpn/utils/bbox/bbox.c	/^    static CYTHON_INLINE __pyx_t_float_complex __pyx_t_float_complex_from_parts(float x, float y) {$/;"	f	file:
+__pyx_t_float_complex_from_parts	sinobot_ctpn/utils/bbox/nms.c	/^    static CYTHON_INLINE __pyx_t_float_complex __pyx_t_float_complex_from_parts(float x, float y) {$/;"	f	file:
+__pyx_tuple_	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple_;$/;"	v	file:
+__pyx_tuple__10	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__10;$/;"	v	file:
+__pyx_tuple__13	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__13;$/;"	v	file:
+__pyx_tuple__15	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__15;$/;"	v	file:
+__pyx_tuple__17	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__17;$/;"	v	file:
+__pyx_tuple__19	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__19;$/;"	v	file:
+__pyx_tuple__2	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__2;$/;"	v	file:
+__pyx_tuple__2	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__2;$/;"	v	file:
+__pyx_tuple__21	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__21;$/;"	v	file:
+__pyx_tuple__23	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__23;$/;"	v	file:
+__pyx_tuple__24	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__24;$/;"	v	file:
+__pyx_tuple__25	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__25;$/;"	v	file:
+__pyx_tuple__26	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__26;$/;"	v	file:
+__pyx_tuple__27	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__27;$/;"	v	file:
+__pyx_tuple__28	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__28;$/;"	v	file:
+__pyx_tuple__29	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__29;$/;"	v	file:
+__pyx_tuple__3	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__3;$/;"	v	file:
+__pyx_tuple__31	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__31;$/;"	v	file:
+__pyx_tuple__4	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__4;$/;"	v	file:
+__pyx_tuple__4	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__4;$/;"	v	file:
+__pyx_tuple__5	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__5;$/;"	v	file:
+__pyx_tuple__6	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__6;$/;"	v	file:
+__pyx_tuple__6	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__6;$/;"	v	file:
+__pyx_tuple__7	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__7;$/;"	v	file:
+__pyx_tuple__8	sinobot_ctpn/utils/bbox/nms.c	/^static PyObject *__pyx_tuple__8;$/;"	v	file:
+__pyx_tuple__9	sinobot_ctpn/utils/bbox/bbox.c	/^static PyObject *__pyx_tuple__9;$/;"	v	file:
+__stdcall	sinobot_ctpn/utils/bbox/bbox.c	26;"	d	file:
+__stdcall	sinobot_ctpn/utils/bbox/nms.c	26;"	d	file:
+_compute_targets	sinobot_ctpn/utils/rpn_msr/anchor_target_layer.py	/^def _compute_targets(ex_rois, gt_rois):$/;"	f
+_filter_boxes	sinobot_ctpn/utils/rpn_msr/proposal_layer.py	/^def _filter_boxes(boxes, min_size):$/;"	f
+_filter_irregular_boxes	sinobot_ctpn/utils/rpn_msr/proposal_layer.py	/^def _filter_irregular_boxes(boxes, min_ratio=0.2, max_ratio=5):$/;"	f
+_unmap	sinobot_ctpn/utils/rpn_msr/anchor_target_layer.py	/^def _unmap(data, count, inds, fill=0):$/;"	f
+a	sinobot_ctpn/utils/rpn_msr/generate_anchors.py	/^    a = generate_anchors()$/;"	v
+am_aiter	sinobot_ctpn/utils/bbox/bbox.c	/^    unaryfunc am_aiter;$/;"	m	struct:__anon29	file:
+am_aiter	sinobot_ctpn/utils/bbox/nms.c	/^    unaryfunc am_aiter;$/;"	m	struct:__anon1	file:
+am_anext	sinobot_ctpn/utils/bbox/bbox.c	/^    unaryfunc am_anext;$/;"	m	struct:__anon29	file:
+am_anext	sinobot_ctpn/utils/bbox/nms.c	/^    unaryfunc am_anext;$/;"	m	struct:__anon1	file:
+am_await	sinobot_ctpn/utils/bbox/bbox.c	/^    unaryfunc am_await;$/;"	m	struct:__anon29	file:
+am_await	sinobot_ctpn/utils/bbox/nms.c	/^    unaryfunc am_await;$/;"	m	struct:__anon1	file:
+anchor_target_layer	sinobot_ctpn/nets/model_train.py	/^def anchor_target_layer(cls_pred, bbox, im_info, scope_name):$/;"	f
+anchor_target_layer	sinobot_ctpn/utils/rpn_msr/anchor_target_layer.py	/^def anchor_target_layer(rpn_cls_score, gt_boxes, im_info, _feat_stride=[16, ], anchor_scales=[16, ]):$/;"	f
+arraysize	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t arraysize[8];$/;"	m	struct:__anon31	file:
+arraysize	sinobot_ctpn/utils/bbox/nms.c	/^  size_t arraysize[8];$/;"	m	struct:__anon3	file:
+bbox_intersections	sinobot_ctpn/utils/bbox/bbox.pyx	/^def bbox_intersections($/;"	f
+bbox_overlaps	sinobot_ctpn/utils/bbox/bbox.pyx	/^def bbox_overlaps($/;"	f
+bbox_transform	sinobot_ctpn/utils/bbox/bbox_transform.py	/^def bbox_transform(ex_rois, gt_rois):$/;"	f
+bbox_transform_inv	sinobot_ctpn/utils/bbox/bbox_transform.py	/^def bbox_transform_inv(boxes, deltas):$/;"	f
+build_graph	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^    def build_graph(self, text_proposals, scores, im_size):$/;"	m	class:TextProposalGraphBuilder
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	m	struct:__anon56	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	m	struct:__anon48	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	m	struct:__anon45	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	m	struct:__anon44	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	m	struct:__anon42	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	m	struct:__anon46	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	m	struct:__anon43	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	m	struct:__anon41	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	m	struct:__anon47	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	m	struct:__anon53	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	m	struct:__anon52	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	m	struct:__anon50	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	m	struct:__anon54	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	m	struct:__anon51	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	m	struct:__anon49	file:
+c	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	m	struct:__anon55	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	m	struct:__anon28	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	m	struct:__anon20	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	m	struct:__anon17	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	m	struct:__anon16	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	m	struct:__anon14	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	m	struct:__anon18	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	m	struct:__anon15	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	m	struct:__anon13	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	m	struct:__anon19	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	m	struct:__anon25	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	m	struct:__anon24	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	m	struct:__anon22	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	m	struct:__anon26	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	m	struct:__anon23	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	m	struct:__anon21	file:
+c	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	m	struct:__anon27	file:
+calamari_apply_ocr	validation/calamari_helper.py	/^def calamari_apply_ocr(img_list):$/;"	f
+ckpt_state	sinobot_ctpn/ctpn_helper.py	/^ckpt_state = tf.train.get_checkpoint_state(CTPN_MODEL_PATH)$/;"	v
+clip_boxes	sinobot_ctpn/utils/bbox/bbox_transform.py	/^def clip_boxes(boxes, im_shape):$/;"	f
+clip_boxes	sinobot_ctpn/utils/text_connector/other.py	/^def clip_boxes(boxes, im_shape):$/;"	f
+code_line	sinobot_ctpn/utils/bbox/bbox.c	/^    int code_line;$/;"	m	struct:__anon37	file:
+code_line	sinobot_ctpn/utils/bbox/nms.c	/^    int code_line;$/;"	m	struct:__anon9	file:
+code_object	sinobot_ctpn/utils/bbox/bbox.c	/^    PyCodeObject* code_object;$/;"	m	struct:__anon37	file:
+code_object	sinobot_ctpn/utils/bbox/nms.c	/^    PyCodeObject* code_object;$/;"	m	struct:__anon9	file:
+connect_text	validation/calamari_helper.py	/^def connect_text(text_list):$/;"	f
+convert_digitstr_to_float	validation/cv2_helper2.py	/^def convert_digitstr_to_float(text):$/;"	f
+count	sinobot_ctpn/utils/bbox/bbox.c	/^    int count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+count	sinobot_ctpn/utils/bbox/nms.c	/^    int count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+data	sinobot_ctpn/utils/bbox/bbox.c	/^  char *data;$/;"	m	struct:__anon40	file:
+data	sinobot_ctpn/utils/bbox/nms.c	/^  char *data;$/;"	m	struct:__anon12	file:
+data_generator_task	sinobot_ctpn/utils/dataset/data_util.py	/^        def data_generator_task():$/;"	f	function:GeneratorEnqueuer.start
+detect	sinobot_ctpn/utils/text_connector/detectors.py	/^    def detect(self, text_proposals, scores, size):$/;"	m	class:TextDetector
+dg	sinobot_ctpn/ctpn_helper.py	/^dg = tf.get_default_graph().as_default()$/;"	v
+diminfo	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_Buf_DimInfo diminfo[8];$/;"	m	struct:__anon40	file:
+diminfo	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_Buf_DimInfo diminfo[8];$/;"	m	struct:__anon12	file:
+enc_count	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t new_count, enc_count;$/;"	m	struct:__anon33	file:
+enc_count	sinobot_ctpn/utils/bbox/nms.c	/^  size_t new_count, enc_count;$/;"	m	struct:__anon5	file:
+enc_packmode	sinobot_ctpn/utils/bbox/bbox.c	/^  char enc_packmode;$/;"	m	struct:__anon33	file:
+enc_packmode	sinobot_ctpn/utils/bbox/nms.c	/^  char enc_packmode;$/;"	m	struct:__anon5	file:
+enc_type	sinobot_ctpn/utils/bbox/bbox.c	/^  char enc_type;$/;"	m	struct:__anon33	file:
+enc_type	sinobot_ctpn/utils/bbox/nms.c	/^  char enc_type;$/;"	m	struct:__anon5	file:
+encoding	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon30	file:
+encoding	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+entries	sinobot_ctpn/utils/bbox/bbox.c	/^    __Pyx_CodeObjectCacheEntry* entries;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+entries	sinobot_ctpn/utils/bbox/nms.c	/^    __Pyx_CodeObjectCacheEntry* entries;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+field	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_StructField* field;$/;"	m	struct:__anon32	file:
+field	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_StructField* field;$/;"	m	struct:__anon4	file:
+fields	sinobot_ctpn/utils/bbox/bbox.c	/^  struct __Pyx_StructField_* fields;$/;"	m	struct:__anon31	typeref:struct:__anon31::__Pyx_StructField_	file:
+fields	sinobot_ctpn/utils/bbox/nms.c	/^  struct __Pyx_StructField_* fields;$/;"	m	struct:__anon3	typeref:struct:__anon3::__Pyx_StructField_	file:
+filter_boxes	sinobot_ctpn/utils/text_connector/detectors.py	/^    def filter_boxes(self, boxes):$/;"	m	class:TextDetector
+find_ztgz_value_in_lin_text	validation/cv2_helper2.py	/^def find_ztgz_value_in_lin_text(line_text):$/;"	f
+fit_y	sinobot_ctpn/utils/text_connector/text_proposal_connector.py	/^    def fit_y(self, X, Y, x1, x2):$/;"	m	class:TextProposalConnector
+fit_y	sinobot_ctpn/utils/text_connector/text_proposal_connector_oriented.py	/^    def fit_y(self, X, Y, x1, x2):$/;"	m	class:TextProposalConnector
+flags	sinobot_ctpn/utils/bbox/bbox.c	/^  int flags;$/;"	m	struct:__anon31	file:
+flags	sinobot_ctpn/utils/bbox/nms.c	/^  int flags;$/;"	m	struct:__anon3	file:
+fmt_offset	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t fmt_offset;$/;"	m	struct:__anon33	file:
+fmt_offset	sinobot_ctpn/utils/bbox/nms.c	/^  size_t fmt_offset;$/;"	m	struct:__anon5	file:
+forbidden_keywords	validation/cv2_helper2.py	/^forbidden_keywords = [$/;"	v
+gen	sinobot_ctpn/utils/dataset/data_provider.py	/^    gen = get_batch(num_workers=2, vis=True)$/;"	v
+generate_anchors	sinobot_ctpn/utils/rpn_msr/generate_anchors.py	/^def generate_anchors(base_size=16, ratios=[0.5, 1, 2],$/;"	f
+generate_basic_anchors	sinobot_ctpn/utils/rpn_msr/generate_anchors.py	/^def generate_basic_anchors(sizes, base_size=16):$/;"	f
+generator	sinobot_ctpn/utils/dataset/data_provider.py	/^def generator(vis=False):$/;"	f
+get	sinobot_ctpn/utils/dataset/data_util.py	/^    def get(self):$/;"	m	class:GeneratorEnqueuer
+get_batch	sinobot_ctpn/utils/dataset/data_provider.py	/^def get_batch(num_workers, **kwargs):$/;"	f
+get_ctpn_boxes	sinobot_ctpn/ctpn_helper.py	/^def get_ctpn_boxes(table_img):$/;"	f
+get_images	main/demo.py	/^def get_images():$/;"	f
+get_images	main/predict.py	/^def get_images():$/;"	f
+get_model	validation/calamari_helper.py	/^def get_model():$/;"	f
+get_precursors	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^    def get_precursors(self, index):$/;"	m	class:TextProposalGraphBuilder
+get_real_img_list	validation/calamari_helper.py	/^def get_real_img_list(img_list):$/;"	f
+get_real_text_list	validation/calamari_helper.py	/^def get_real_text_list(text_list, line_num_list):$/;"	f
+get_successions	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^    def get_successions(self, index):$/;"	m	class:TextProposalGraphBuilder
+get_text_blocks_by_opencv_v2	validation/cv2_helper2.py	/^def get_text_blocks_by_opencv_v2(img, boxes):$/;"	f
+get_text_lines	sinobot_ctpn/utils/text_connector/text_proposal_connector.py	/^    def get_text_lines(self, text_proposals, scores, im_size):$/;"	m	class:TextProposalConnector
+get_text_lines	sinobot_ctpn/utils/text_connector/text_proposal_connector_oriented.py	/^    def get_text_lines(self, text_proposals, scores, im_size):$/;"	m	class:TextProposalConnector
+get_training_data	sinobot_ctpn/utils/dataset/data_provider.py	/^def get_training_data():$/;"	f
+global_step	sinobot_ctpn/ctpn_helper.py	/^global_step = tf.get_variable('global_step', [], initializer=tf.constant_initializer(0), trainable=False)$/;"	v
+group_text_proposals	sinobot_ctpn/utils/text_connector/text_proposal_connector.py	/^    def group_text_proposals(self, text_proposals, scores, im_size):$/;"	m	class:TextProposalConnector
+group_text_proposals	sinobot_ctpn/utils/text_connector/text_proposal_connector_oriented.py	/^    def group_text_proposals(self, text_proposals, scores, im_size):$/;"	m	class:TextProposalConnector
+gt_path	sinobot_ctpn/utils/prepare/split_label.py	/^        gt_path = os.path.join(DATA_FOLDER, "label", 'gt_' + bfn + '.txt')$/;"	v
+head	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_BufFmt_StackElem* head;$/;"	m	struct:__anon33	file:
+head	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_BufFmt_StackElem* head;$/;"	m	struct:__anon5	file:
+im_fns	sinobot_ctpn/utils/prepare/split_label.py	/^im_fns = os.listdir(os.path.join(DATA_FOLDER, "image"))$/;"	v
+im_scale	sinobot_ctpn/utils/prepare/split_label.py	/^            im_scale = float(1200) \/ float(im_size_max)$/;"	v
+im_scale	sinobot_ctpn/utils/prepare/split_label.py	/^        im_scale = float(600) \/ float(im_size_min)$/;"	v
+im_size_max	sinobot_ctpn/utils/prepare/split_label.py	/^        im_size_max = np.max(img_size[0:2])$/;"	v
+im_size_min	sinobot_ctpn/utils/prepare/split_label.py	/^        im_size_min = np.min(img_size[0:2])$/;"	v
+imag	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	m	struct:__anon35	file:
+imag	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	m	struct:__anon34	file:
+imag	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	m	struct:__anon7	file:
+imag	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	m	struct:__anon6	file:
+img	sinobot_ctpn/utils/prepare/split_label.py	/^        img = cv.imread(img_path)$/;"	v
+img_path	sinobot_ctpn/utils/prepare/split_label.py	/^        img_path = os.path.join(DATA_FOLDER, "image", im_fn)$/;"	v
+img_size	sinobot_ctpn/utils/prepare/split_label.py	/^        img_size = img.shape$/;"	v
+initbbox	sinobot_ctpn/utils/bbox/bbox.c	/^PyMODINIT_FUNC initbbox(void)$/;"	f
+initnms	sinobot_ctpn/utils/bbox/nms.c	/^PyMODINIT_FUNC initnms(void)$/;"	f
+input_im_info	sinobot_ctpn/ctpn_helper.py	/^input_im_info = tf.placeholder(tf.float32, shape=[None, 3], name='input_im_info')$/;"	v
+input_image	sinobot_ctpn/ctpn_helper.py	/^input_image = tf.placeholder(tf.float32, shape=[None, None, None, 3], name='input_image')$/;"	v
+intern	sinobot_ctpn/utils/bbox/bbox.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon30	file:
+intern	sinobot_ctpn/utils/bbox/nms.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+is_complex	sinobot_ctpn/utils/bbox/bbox.c	/^  int is_complex;$/;"	m	struct:__anon33	file:
+is_complex	sinobot_ctpn/utils/bbox/nms.c	/^  int is_complex;$/;"	m	struct:__anon5	file:
+is_running	sinobot_ctpn/utils/dataset/data_util.py	/^    def is_running(self):$/;"	m	class:GeneratorEnqueuer
+is_str	sinobot_ctpn/utils/bbox/bbox.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon30	file:
+is_str	sinobot_ctpn/utils/bbox/nms.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+is_succession_node	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^    def is_succession_node(self, index, succession_index):$/;"	m	class:TextProposalGraphBuilder
+is_unicode	sinobot_ctpn/utils/bbox/bbox.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon30	file:
+is_unicode	sinobot_ctpn/utils/bbox/nms.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+is_unsigned	sinobot_ctpn/utils/bbox/bbox.c	/^  char is_unsigned;$/;"	m	struct:__anon31	file:
+is_unsigned	sinobot_ctpn/utils/bbox/nms.c	/^  char is_unsigned;$/;"	m	struct:__anon3	file:
+is_valid_array	sinobot_ctpn/utils/bbox/bbox.c	/^  char is_valid_array;$/;"	m	struct:__anon33	file:
+is_valid_array	sinobot_ctpn/utils/bbox/nms.c	/^  char is_valid_array;$/;"	m	struct:__anon5	file:
+key_words_for_RCzao	validation/cv2_helper2.py	/^key_words_for_RCzao=['RC造', 'R.C造','R.C.造', 'RC.造','RC', 'R.C','R.C.', 'RC.','生造','R(造','日c造','.C造']$/;"	v
+key_words_for_dingzhu	validation/cv2_helper2.py	/^key_words_for_dingzhu=['預鑄']$/;"	v
+key_words_for_ganggu_rc_zao	validation/cv2_helper2.py	/^key_words_for_ganggu_rc_zao=['鋼骨RC造']$/;"	v
+key_words_for_ganggugangjin	validation/cv2_helper2.py	/^key_words_for_ganggugangjin=['鋼骨鋼筋混凝土','鋼骨鋼筋混凝土造','鋼骨鋼筋混凝土構造','鋼骨RC造']$/;"	v
+key_words_for_gangguhunningtu	validation/cv2_helper2.py	/^key_words_for_gangguhunningtu=['鋼骨混凝土造' ,'鋼骨混凝土結構造']$/;"	v
+key_words_for_gangguzao	validation/cv2_helper2.py	/^key_words_for_gangguzao=['鋼骨','鋼骨造','鋼骨構造']$/;"	v
+key_words_for_gangjinhunning	validation/cv2_helper2.py	/^key_words_for_gangjinhunning=['鋼筋混凝土','鋼筋混凝土造','鋼筋混凝土構造','混凝土造','鋼筋混']$/;"	v
+key_words_for_gangjinhunnitu	validation/cv2_helper2.py	/^key_words_for_gangjinhunnitu=['鋼筋混泥土造']$/;"	v
+key_words_for_jiaqiangzhuanzao	validation/cv2_helper2.py	/^key_words_for_jiaqiangzhuanzao=['加強磚造','加強磚']$/;"	v
+key_words_for_sczao	validation/cv2_helper2.py	/^key_words_for_sczao=["SC造","S.C造","S.C.造","SC.造","SC","S.C","S.C.","SC."]$/;"	v
+key_words_for_srczao	validation/cv2_helper2.py	/^key_words_for_srczao=['SRC造','S.R.C造','S.R.C.造','SRC.造','SRC','S.R.C','S.R.C.','SRC.']$/;"	v
+key_words_for_zhuanzao	validation/cv2_helper2.py	/^key_words_for_zhuanzao=['磚造']$/;"	v
+key_words_for_ztjg	validation/cv2_helper2.py	/^key_words_for_ztjg = [$/;"	v
+key_words_muzao	validation/cv2_helper2.py	/^key_words_muzao=['木造']$/;"	v
+key_words_shizao	validation/cv2_helper2.py	/^key_words_shizao=['石造']$/;"	v
+key_words_tiejinjiaqiangzhuan	validation/cv2_helper2.py	/^key_words_tiejinjiaqiangzhuan=['鐵筋加強磚','鐵筋加強磚造']$/;"	v
+key_words_tiejinzao	validation/cv2_helper2.py	/^key_words_tiejinzao=['鐵筋','鐵筋造']$/;"	v
+key_words_wazao	validation/cv2_helper2.py	/^key_words_wazao=['瓦造']$/;"	v
+likely	sinobot_ctpn/utils/bbox/bbox.c	480;"	d	file:
+likely	sinobot_ctpn/utils/bbox/bbox.c	483;"	d	file:
+likely	sinobot_ctpn/utils/bbox/nms.c	480;"	d	file:
+likely	sinobot_ctpn/utils/bbox/nms.c	483;"	d	file:
+line	sinobot_ctpn/utils/prepare/split_label.py	/^                line = ",".join(str(p[i]) for i in range(4))$/;"	v
+lines	sinobot_ctpn/utils/prepare/split_label.py	/^            lines = f.readlines()$/;"	v
+load_annoataion	sinobot_ctpn/utils/dataset/data_provider.py	/^def load_annoataion(p):$/;"	f
+loss	sinobot_ctpn/nets/model_train.py	/^def loss(bbox_pred, cls_pred, bbox, im_info):$/;"	f
+lstm_fc	sinobot_ctpn/nets/model_train.py	/^def lstm_fc(net, input_channel, output_channel, scope_name):$/;"	f
+main	main/demo.py	/^def main(argv=None):$/;"	f
+main	main/predict.py	/^def main(argv=None):$/;"	f
+main	main/train.py	/^def main(argv=None):$/;"	f
+main	validation/calamari_helper.py	/^def main():$/;"	f
+make_var	sinobot_ctpn/nets/model_train.py	/^def make_var(name, shape, initializer=None):$/;"	f
+max_count	sinobot_ctpn/utils/bbox/bbox.c	/^    int max_count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+max_count	sinobot_ctpn/utils/bbox/nms.c	/^    int max_count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+mean_image_subtraction	sinobot_ctpn/nets/model_train.py	/^def mean_image_subtraction(images, means=[123.68, 116.78, 103.94]):$/;"	f
+meet_v_iou	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^    def meet_v_iou(self, index1, index2):$/;"	m	class:TextProposalGraphBuilder
+method_1_to_find_heji_value	validation/cv2_helper2.py	/^def method_1_to_find_heji_value(siv_list):$/;"	f
+method_2_to_find_heji_value	validation/cv2_helper2.py	/^def method_2_to_find_heji_value(raw_line_texts, method_1_result):$/;"	f
+model	sinobot_ctpn/nets/model_train.py	/^def model(image):$/;"	f
+model_path	sinobot_ctpn/ctpn_helper.py	/^model_path = os.path.join(CTPN_MODEL_PATH, os.path.basename(ckpt_state.model_checkpoint_path))$/;"	v
+n	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon30	file:
+n	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+name	sinobot_ctpn/utils/bbox/bbox.c	/^  const char* name;$/;"	m	struct:__Pyx_StructField_	file:
+name	sinobot_ctpn/utils/bbox/bbox.c	/^  const char* name;$/;"	m	struct:__anon31	file:
+name	sinobot_ctpn/utils/bbox/nms.c	/^  const char* name;$/;"	m	struct:__Pyx_StructField_	file:
+name	sinobot_ctpn/utils/bbox/nms.c	/^  const char* name;$/;"	m	struct:__anon3	file:
+ndim	sinobot_ctpn/utils/bbox/bbox.c	/^  int ndim;$/;"	m	struct:__anon31	file:
+ndim	sinobot_ctpn/utils/bbox/nms.c	/^  int ndim;$/;"	m	struct:__anon3	file:
+new_count	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t new_count, enc_count;$/;"	m	struct:__anon33	file:
+new_count	sinobot_ctpn/utils/bbox/nms.c	/^  size_t new_count, enc_count;$/;"	m	struct:__anon5	file:
+new_h	sinobot_ctpn/utils/prepare/split_label.py	/^        new_h = int(img_size[0] * im_scale)$/;"	v
+new_packmode	sinobot_ctpn/utils/bbox/bbox.c	/^  char new_packmode;$/;"	m	struct:__anon33	file:
+new_packmode	sinobot_ctpn/utils/bbox/nms.c	/^  char new_packmode;$/;"	m	struct:__anon5	file:
+new_w	sinobot_ctpn/utils/prepare/split_label.py	/^        new_w = int(img_size[1] * im_scale)$/;"	v
+nms	sinobot_ctpn/utils/bbox/nms.pyx	/^def nms(np.ndarray[np.float32_t, ndim=2] dets, np.float thresh):$/;"	f
+nms_new	sinobot_ctpn/utils/bbox/nms.pyx	/^def nms_new(np.ndarray[np.float32_t, ndim=2] dets, np.float thresh):$/;"	f
+numpy_include	sinobot_ctpn/utils/bbox/setup.py	/^numpy_include = np.get_include()$/;"	v
+offset	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t offset;$/;"	m	struct:__Pyx_StructField_	file:
+offset	sinobot_ctpn/utils/bbox/nms.c	/^  size_t offset;$/;"	m	struct:__Pyx_StructField_	file:
+offsetof	sinobot_ctpn/utils/bbox/bbox.c	22;"	d	file:
+offsetof	sinobot_ctpn/utils/bbox/nms.c	22;"	d	file:
+orderConvex	sinobot_ctpn/utils/prepare/utils.py	/^def orderConvex(p):$/;"	f
+overlaps_v	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^        def overlaps_v(index1, index2):$/;"	f	function:TextProposalGraphBuilder.meet_v_iou
+p	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon30	file:
+p	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+parent_offset	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t parent_offset;$/;"	m	struct:__anon32	file:
+parent_offset	sinobot_ctpn/utils/bbox/nms.c	/^  size_t parent_offset;$/;"	m	struct:__anon4	file:
+pickTopLeft	sinobot_ctpn/utils/prepare/utils.py	/^def pickTopLeft(poly):$/;"	f
+poly	sinobot_ctpn/utils/prepare/split_label.py	/^            poly = np.array([x1, y1, x2, y2, x3, y3, x4, y4]).reshape([4, 2])$/;"	v
+poly	sinobot_ctpn/utils/prepare/split_label.py	/^            poly = orderConvex(poly)$/;"	v
+polys	sinobot_ctpn/utils/prepare/split_label.py	/^        polys = []$/;"	v
+process_digits_recognized	validation/cv2_helper2.py	/^def process_digits_recognized(digit_str):$/;"	f
+progress_bar_wrapper	validation/calamari_utils.py	/^        def progress_bar_wrapper(l):$/;"	f	function:Sinobot_Predictor.sinobot_batch_predict_dataset
+proposal_layer	sinobot_ctpn/utils/rpn_msr/proposal_layer.py	/^def proposal_layer(rpn_cls_prob_reshape, rpn_bbox_pred, im_info, _feat_stride=[16, ], anchor_scales=[16, ]):$/;"	f
+pybuffer	sinobot_ctpn/utils/bbox/bbox.c	/^  Py_buffer pybuffer;$/;"	m	struct:__anon39	file:
+pybuffer	sinobot_ctpn/utils/bbox/nms.c	/^  Py_buffer pybuffer;$/;"	m	struct:__anon11	file:
+rcbuffer	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_Buffer *rcbuffer;$/;"	m	struct:__anon40	file:
+rcbuffer	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_Buffer *rcbuffer;$/;"	m	struct:__anon12	file:
+re_im	sinobot_ctpn/utils/prepare/split_label.py	/^        re_im = cv.resize(img, (new_w, new_h), interpolation=cv.INTER_LINEAR)$/;"	v
+re_size	sinobot_ctpn/utils/prepare/split_label.py	/^        re_size = re_im.shape$/;"	v
+read_gt	validation/validate.py	/^def read_gt(gt_file):$/;"	f
+real	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	m	struct:__anon35	file:
+real	sinobot_ctpn/utils/bbox/bbox.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	m	struct:__anon34	file:
+real	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { double real, imag; } __pyx_t_double_complex;$/;"	m	struct:__anon7	file:
+real	sinobot_ctpn/utils/bbox/nms.c	/^    typedef struct { float real, imag; } __pyx_t_float_complex;$/;"	m	struct:__anon6	file:
+refcount	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t refcount;$/;"	m	struct:__anon39	file:
+refcount	sinobot_ctpn/utils/bbox/nms.c	/^  size_t refcount;$/;"	m	struct:__anon11	file:
+res	sinobot_ctpn/utils/prepare/split_label.py	/^            res = res.reshape([-1, 4, 2])$/;"	v
+res	sinobot_ctpn/utils/prepare/split_label.py	/^            res = shrink_poly(poly)$/;"	v
+res_polys	sinobot_ctpn/utils/prepare/split_label.py	/^        res_polys = []$/;"	v
+resize_image	main/demo.py	/^def resize_image(img):$/;"	f
+resize_image	main/predict.py	/^def resize_image(img):$/;"	f
+resize_image	sinobot_ctpn/ctpn_helper.py	/^def resize_image(img):$/;"	f
+root	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_StructField root;$/;"	m	struct:__anon33	file:
+root	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_StructField root;$/;"	m	struct:__anon5	file:
+s	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon30	file:
+s	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+save_segment	main/predict.py	/^def save_segment(img, coordinate_box, im_fn, i, base_path):$/;"	f
+saver	sinobot_ctpn/ctpn_helper.py	/^saver = tf.train.Saver(variable_averages.variables_to_restore())$/;"	v
+scale_anchor	sinobot_ctpn/utils/rpn_msr/generate_anchors.py	/^def scale_anchor(anchor, h, w):$/;"	f
+search_heji_keyword_index	validation/cv2_helper2.py	/^def search_heji_keyword_index(line_text):$/;"	f
+search_heji_keyword_value	validation/cv2_helper2.py	/^def search_heji_keyword_value(line_text, score, index):$/;"	f
+sess	sinobot_ctpn/ctpn_helper.py	/^sess = tf.Session(config=tf.ConfigProto(allow_soft_placement=True))$/;"	v
+shape	sinobot_ctpn/utils/bbox/bbox.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon38	file:
+shape	sinobot_ctpn/utils/bbox/nms.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon10	file:
+shrink_poly	sinobot_ctpn/utils/prepare/utils.py	/^def shrink_poly(poly, r=16):$/;"	f
+sinobot_batch_predict_dataset	validation/calamari_utils.py	/^    def sinobot_batch_predict_dataset(self, datas, progress_bar=True):$/;"	m	class:Sinobot_Predictor
+sinobot_predict_dataset	validation/calamari_utils.py	/^    def sinobot_predict_dataset(self, img, progress_bar=True):$/;"	m	class:Sinobot_Predictor
+size	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t size;$/;"	m	struct:__anon31	file:
+size	sinobot_ctpn/utils/bbox/nms.c	/^  size_t size;$/;"	m	struct:__anon3	file:
+size_similarity	sinobot_ctpn/utils/text_connector/text_proposal_graph_builder.py	/^        def size_similarity(index1, index2):$/;"	f	function:TextProposalGraphBuilder.meet_v_iou
+slim	sinobot_ctpn/nets/vgg.py	/^slim = tf.contrib.slim$/;"	v
+smooth_l1_dist	sinobot_ctpn/nets/model_train.py	/^def smooth_l1_dist(deltas, sigma2=9.0, name='smooth_l1_dist'):$/;"	f
+splitted_line	sinobot_ctpn/utils/prepare/split_label.py	/^            splitted_line = line.strip().lower().split(',')$/;"	v
+start	sinobot_ctpn/utils/dataset/data_util.py	/^    def start(self, workers=1, max_queue_size=10):$/;"	m	class:GeneratorEnqueuer
+step_3_find_text_lines_v2	validation/cv2_helper2.py	/^def step_3_find_text_lines_v2(table, filename):$/;"	f
+step_4_read_keyword_and_value_v2	validation/cv2_helper2.py	/^def step_4_read_keyword_and_value_v2(text_blocks):$/;"	f
+stop	sinobot_ctpn/utils/dataset/data_util.py	/^    def stop(self, timeout=None):$/;"	m	class:GeneratorEnqueuer
+strides	sinobot_ctpn/utils/bbox/bbox.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon38	file:
+strides	sinobot_ctpn/utils/bbox/nms.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon10	file:
+struct_alignment	sinobot_ctpn/utils/bbox/bbox.c	/^  size_t struct_alignment;$/;"	m	struct:__anon33	file:
+struct_alignment	sinobot_ctpn/utils/bbox/nms.c	/^  size_t struct_alignment;$/;"	m	struct:__anon5	file:
+sub_graphs_connected	sinobot_ctpn/utils/text_connector/other.py	/^    def sub_graphs_connected(self):$/;"	m	class:Graph
+suboffsets	sinobot_ctpn/utils/bbox/bbox.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon38	file:
+suboffsets	sinobot_ctpn/utils/bbox/nms.c	/^  Py_ssize_t shape, strides, suboffsets;$/;"	m	struct:__anon10	file:
+t	sinobot_ctpn/utils/rpn_msr/generate_anchors.py	/^    t = time.time()$/;"	v
+threshold	sinobot_ctpn/utils/text_connector/other.py	/^def threshold(coords, min_, max_):$/;"	f
+type	sinobot_ctpn/utils/bbox/bbox.c	/^  __Pyx_TypeInfo* type;$/;"	m	struct:__Pyx_StructField_	file:
+type	sinobot_ctpn/utils/bbox/nms.c	/^  __Pyx_TypeInfo* type;$/;"	m	struct:__Pyx_StructField_	file:
+typegroup	sinobot_ctpn/utils/bbox/bbox.c	/^  char typegroup;$/;"	m	struct:__anon31	file:
+typegroup	sinobot_ctpn/utils/bbox/nms.c	/^  char typegroup;$/;"	m	struct:__anon3	file:
+unlikely	sinobot_ctpn/utils/bbox/bbox.c	481;"	d	file:
+unlikely	sinobot_ctpn/utils/bbox/bbox.c	484;"	d	file:
+unlikely	sinobot_ctpn/utils/bbox/nms.c	481;"	d	file:
+unlikely	sinobot_ctpn/utils/bbox/nms.c	484;"	d	file:
+val_path	main/test.py	/^val_path = ".\/data\/dataset\/validation"$/;"	v
+val_path	main/validate.py	/^    val_path = ".\/data\/dataset\/validation"$/;"	v
+val_path	validation/validate.py	/^    val_path = ".\/data\/dataset\/validation"$/;"	v
+validate	main/validate.py	/^def validate(val_path):$/;"	f
+validate	validation/validate.py	/^def validate(val_path):$/;"	f
+variable_averages	sinobot_ctpn/ctpn_helper.py	/^variable_averages = tf.train.ExponentialMovingAverage(0.997, global_step)$/;"	v
+vgg_16	sinobot_ctpn/nets/vgg.py	/^def vgg_16(inputs, scope='vgg_16'):$/;"	f
+vgg_arg_scope	sinobot_ctpn/nets/vgg.py	/^def vgg_arg_scope(weight_decay=0.0005):$/;"	f
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	m	struct:__anon56	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	m	struct:__anon48	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	m	struct:__anon45	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	m	struct:__anon44	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	m	struct:__anon42	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	m	struct:__anon46	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	m	struct:__anon43	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	m	struct:__anon41	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	m	struct:__anon47	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	m	struct:__anon53	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	m	struct:__anon52	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	m	struct:__anon50	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	m	struct:__anon54	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	m	struct:__anon51	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	m	struct:__anon49	file:
+x	sinobot_ctpn/utils/bbox/bbox.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	m	struct:__anon55	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;$/;"	m	struct:__anon28	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;$/;"	m	struct:__anon20	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; double x; } __Pyx_st_double;$/;"	m	struct:__anon17	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; float x; } __Pyx_st_float;$/;"	m	struct:__anon16	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; int x; } __Pyx_st_int;$/;"	m	struct:__anon14	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long double x; } __Pyx_st_longdouble;$/;"	m	struct:__anon18	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; long x; } __Pyx_st_long;$/;"	m	struct:__anon15	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; short x; } __Pyx_st_short;$/;"	m	struct:__anon13	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { char c; void *x; } __Pyx_st_void_p;$/;"	m	struct:__anon19	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { double x; char c; } __Pyx_pad_double;$/;"	m	struct:__anon25	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { float x; char c; } __Pyx_pad_float;$/;"	m	struct:__anon24	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { int x; char c; } __Pyx_pad_int;$/;"	m	struct:__anon22	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long double x; char c; } __Pyx_pad_longdouble;$/;"	m	struct:__anon26	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { long x; char c; } __Pyx_pad_long;$/;"	m	struct:__anon23	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { short x; char c; } __Pyx_pad_short;$/;"	m	struct:__anon21	file:
+x	sinobot_ctpn/utils/bbox/nms.c	/^typedef struct { void *x; char c; } __Pyx_pad_void_p;$/;"	m	struct:__anon27	file:
+x_max	sinobot_ctpn/utils/prepare/split_label.py	/^                x_max = np.max(r[:, 0])$/;"	v
+x_min	sinobot_ctpn/utils/prepare/split_label.py	/^                x_min = np.min(r[:, 0])$/;"	v
+y_max	sinobot_ctpn/utils/prepare/split_label.py	/^                y_max = np.max(r[:, 1])$/;"	v
+y_min	sinobot_ctpn/utils/prepare/split_label.py	/^                y_min = np.min(r[:, 1])$/;"	v
+zzm_keywords	validation/cv2_helper2.py	/^zzm_keywords = [$/;"	v

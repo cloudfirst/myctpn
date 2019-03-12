@@ -7,7 +7,7 @@ import sys
 from cv2_helper2 import *
 
 
-def validate(val_path):
+def validate(val_path, predictor):
     for root, dirs, files in os.walk(val_path):
         for f in files:
             (shotname, extension) = os.path.splitext(f)
@@ -16,7 +16,7 @@ def validate(val_path):
                 try:
                     table = cv2.imread(os.path.join(val_path, f), -1)
                     text_blocks = step_3_find_text_lines_v2(table, shotname)
-                    areas, ztgz = step_4_read_keyword_and_value_v2(text_blocks)
+                    areas, ztgz = step_4_read_keyword_and_value_v2(text_blocks, predictor)
 
                     ret = {}
                     ret['filename']  = shotname

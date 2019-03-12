@@ -3,6 +3,7 @@ import os
 import sys
 import time
 
+from validation.validate import validate
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
@@ -28,6 +29,17 @@ tf.app.flags.DEFINE_boolean('restore', False, '')
 tf.app.flags.DEFINE_integer('save_checkpoint_steps', 100, '')
 FLAGS = tf.app.flags.FLAGS
 
+
+#################### validation by raymond #################
+tf.app.flags.DEFINE_string('best_checkpoint_path', 'best_checkpoint/', '')
+tf.app.flags.DEFINE_string('early_stopping_nbest', 5, '')
+tf.app.flags.DEFINE_string('early_stopping_frequency', 20, '')
+tf.app.flags.DEFINE_string('early_stopping_enabled', True, '')
+tf.app.flags.DEFINE_string('early_stopping_suc_lower_bound', 0.9, '')
+tf.app.flags.DEFINE_string('early_stopping_step_lower_bound', 5000, '')
+tf.app.flags.DEFINE_string('val_path', "./data/dataset/validation", '')
+
+#################### validation finished #################
 
 def main(argv=None):
     os.environ['CUDA_VISIBLE_DEVICES'] = FLAGS.gpu
@@ -65,6 +77,10 @@ def main(argv=None):
                 batch_norm_updates_op = tf.group(*tf.get_collection(tf.GraphKeys.UPDATE_OPS, scope))
                 grads = opt.compute_gradients(total_loss)
     '''
+    
+    #################### validation by raymond #################
+
+    #################### validation finished #################
 
     apply_gradient_op = opt.apply_gradients(grads, global_step=global_step)
 
@@ -103,6 +119,13 @@ def main(argv=None):
 
         data_generator = data_provider.get_batch(num_workers=FLAGS.num_readers)
         start = time.time()
+
+        #################### validation by raymond #################
+        early_stopping_best_at_iter = 0
+        early_stopping_best_accuracy = 0.0
+        early_stopping_best_cur_nbest = 0
+        #################### validation finished #################
+
         for step in range(restore_step, FLAGS.max_steps):
             data = next(data_generator)
             ml, tl, _, summary_str = sess.run([model_loss, total_loss, train_op, summary_op],
@@ -116,7 +139,6 @@ def main(argv=None):
                 sess.run(tf.assign(learning_rate, learning_rate.eval() * FLAGS.decay_rate))
 
             if step % 10 == 0:
-            #if step % 1 == 0:
                 avg_time_per_step = (time.time() - start) / 10
                 start = time.time()
                 print('Step {:06d}, model loss {:.4f}, total loss {:.4f}, {:.2f} seconds/step, LR: {:.6f}'.format(
@@ -127,6 +149,48 @@ def main(argv=None):
                 filename = os.path.join(FLAGS.checkpoint_path, filename)
                 saver.save(sess, filename)
                 print('Write model to: {:s}'.format(filename))
+
+            #################### validation by raymond #################
+            if FLAGS.early_stopping_enabled and (iter + 1) % FLAGS.early_stopping_frequency == 0 and step >= FLAGS.early_stopping_step_lower_bound:
+                print("Checking early stopping model")
+
+                accuracy = validate(FLAGS.val_path)
+
+                if accuracy > FLAGS.early_stopping_suc_lower_bound:
+                    if accuracy > early_stopping_best_accuracy: 
+                        early_stopping_best_accuracy = accuracy
+                        early_stopping_best_cur_nbest = 1
+                        early_stopping_best_at_iter = step + 1
+
+                        # overwrite as best model
+                        '''
+                        last_checkpoint = make_checkpoint(
+                            checkpoint_params.early_stopping_best_model_output_dir,
+                            prefix="",
+                            version=checkpoint_params.early_stopping_best_model_prefix,
+                        )
+                        '''
+
+                        filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
+                        filename = os.path.join(FLAGS.best_checkpoint_path, filename)
+                        saver.save(sess, filename)
+
+                        print('Write model to: {:s}'.format(filename))
+                        print("Found better model with accuracy of {:%}".format(early_stopping_best_accuracy))
+                    else:
+                        early_stopping_best_cur_nbest += 1
+                        print("No better model found. Currently accuracy of {:%} at iter {} (remaining nbest = {})".
+                              format(early_stopping_best_accuracy, early_stopping_best_at_iter,
+                                     FLAGS.early_stopping_nbest - early_stopping_best_cur_nbest))
+
+                    if accuracy > 0 and early_stopping_best_cur_nbest >= FLAGS.early_stopping_nbest:
+                        print("Early stopping now.")
+                        break
+
+                        if accuracy >= 1:
+                            print("Reached perfect score on validation set. Early stopping now.")
+                            break
+            #################### validation finished #################
 
 
 if __name__ == '__main__':

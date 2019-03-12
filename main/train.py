@@ -3,10 +3,10 @@ import os
 import sys
 import time
 
-from validation.validate import validate
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
+from validation.validate import validate
 from tensorflow.contrib import slim
 from sinobot_ctpn.nets import model_train as model
 from sinobot_ctpn.utils.dataset import data_provider as data_provider
@@ -23,8 +23,8 @@ tf.app.flags.DEFINE_string('gpu', '0,1', '')
 tf.app.flags.DEFINE_string('checkpoint_path', 'checkpoints_mlt/', '')
 tf.app.flags.DEFINE_string('logs_path', 'logs_mlt/', '')
 tf.app.flags.DEFINE_string('pretrained_model_path', 'data/vgg_16.ckpt', '')
-#tf.app.flags.DEFINE_boolean('restore', True, '')
-tf.app.flags.DEFINE_boolean('restore', False, '')
+tf.app.flags.DEFINE_boolean('restore', True, '')
+#tf.app.flags.DEFINE_boolean('restore', False, '')
 #tf.app.flags.DEFINE_integer('save_checkpoint_steps', 2000, '')
 tf.app.flags.DEFINE_integer('save_checkpoint_steps', 100, '')
 FLAGS = tf.app.flags.FLAGS
@@ -35,14 +35,15 @@ tf.app.flags.DEFINE_string('best_checkpoint_path', 'best_checkpoint/', '')
 tf.app.flags.DEFINE_integer('early_stopping_nbest', 5, '')
 tf.app.flags.DEFINE_integer('early_stopping_frequency', 20, '')
 tf.app.flags.DEFINE_boolean('early_stopping_enabled', True, '')
-tf.app.flags.DEFINE_float('early_stopping_suc_lower_bound', 0.9, '')
-tf.app.flags.DEFINE_integer('early_stopping_step_lower_bound', 5000, '')
+tf.app.flags.DEFINE_float('early_stopping_suc_lower_bound', 0.3, '')
+tf.app.flags.DEFINE_integer('early_stopping_step_lower_bound', 20, '')
 tf.app.flags.DEFINE_string('val_path', "./data/dataset/validation", '')
 
 #################### validation finished #################
 
 def main(argv=None):
     os.environ['CUDA_VISIBLE_DEVICES'] = FLAGS.gpu
+    tf.reset_default_graph()
     now = datetime.datetime.now()
     StyleTime = now.strftime("%Y-%m-%d-%H-%M-%S")
     os.makedirs(FLAGS.logs_path + StyleTime)
@@ -155,6 +156,7 @@ def main(argv=None):
                 print("Checking early stopping model")
 
                 accuracy = validate(FLAGS.val_path)
+                print('accuracy: {!s} at step: {!s}'.format(accuracy, step))
 
                 if accuracy > FLAGS.early_stopping_suc_lower_bound:
                     if accuracy > early_stopping_best_accuracy: 

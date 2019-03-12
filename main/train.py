@@ -172,11 +172,6 @@ def main(argv=None):
 
                 if accuracy > FLAGS.early_stopping_suc_lower_bound:
 
-                    del_file(FLAGS.best_checkpoint_path):
-                    filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
-                    filename = os.path.join(FLAGS.best_checkpoint_path, filename)
-                    saver.save(sess, filename)
-
                     if accuracy > early_stopping_best_accuracy: 
                         early_stopping_best_accuracy = accuracy
                         early_stopping_best_cur_nbest = 1
@@ -206,22 +201,10 @@ def main(argv=None):
 
                     if accuracy > 0 and early_stopping_best_cur_nbest >= FLAGS.early_stopping_nbest:
                         print("Early stopping now.")
-
-                        del_file(FLAGS.best_checkpoint_path):
-                        filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
-                        filename = os.path.join(FLAGS.best_checkpoint_path, filename)
-                        saver.save(sess, filename)
-
                         break
 
                         if accuracy >= 1:
                             print("Reached perfect score on validation set. Early stopping now.")
-
-                            del_file(FLAGS.best_checkpoint_path):
-                            filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
-                            filename = os.path.join(FLAGS.best_checkpoint_path, filename)
-                            saver.save(sess, filename)
-
                             break
             #################### validation finished #################
 

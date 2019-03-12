@@ -6,7 +6,7 @@ import time
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
-from validation.calamari_utils import init_calamary
+from validation.calamari_helper import init_calamary
 from validation.validate import validate
 from tensorflow.contrib import slim
 from sinobot_ctpn.nets import model_train as model
@@ -186,7 +186,7 @@ def main(argv=None):
                         )
                         '''
 
-                        del_file(FLAGS.best_checkpoint_path):
+                        del_file(FLAGS.best_checkpoint_path)
                         filename = ('ctpn_{:d}'.format(step + 1) + '.ckpt')
                         filename = os.path.join(FLAGS.best_checkpoint_path, filename)
                         saver.save(sess, filename)

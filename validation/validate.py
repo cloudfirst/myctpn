@@ -57,8 +57,8 @@ def validate(val_path, predictor):
     
     suc_rate = float(suc_num)/total_num
     print('suc_rate:', suc_rate)
-    suc_rate = "%.2f%%" % (suc_rate * 100)
-    print('suc_rate:', suc_rate)
+    ssuc_rate = "%.2f%%" % (suc_rate * 100)
+    print('suc_rate:', ssuc_rate)
     return suc_rate
     
 if __name__ == '__main__':

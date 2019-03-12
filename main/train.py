@@ -32,11 +32,11 @@ FLAGS = tf.app.flags.FLAGS
 
 #################### validation by raymond #################
 tf.app.flags.DEFINE_string('best_checkpoint_path', 'best_checkpoint/', '')
-tf.app.flags.DEFINE_string('early_stopping_nbest', 5, '')
-tf.app.flags.DEFINE_string('early_stopping_frequency', 20, '')
-tf.app.flags.DEFINE_string('early_stopping_enabled', True, '')
-tf.app.flags.DEFINE_string('early_stopping_suc_lower_bound', 0.9, '')
-tf.app.flags.DEFINE_string('early_stopping_step_lower_bound', 5000, '')
+tf.app.flags.DEFINE_integer('early_stopping_nbest', 5, '')
+tf.app.flags.DEFINE_integer('early_stopping_frequency', 20, '')
+tf.app.flags.DEFINE_boolean('early_stopping_enabled', True, '')
+tf.app.flags.DEFINE_float('early_stopping_suc_lower_bound', 0.9, '')
+tf.app.flags.DEFINE_integer('early_stopping_step_lower_bound', 5000, '')
 tf.app.flags.DEFINE_string('val_path', "./data/dataset/validation", '')
 
 #################### validation finished #################

@@ -5,6 +5,6 @@ class Config:
     MIN_V_OVERLAPS = 0.7
     MIN_SIZE_SIM = 0.7
     MIN_RATIO = 0.5
-    LINE_MIN_SCORE = 0.9
+    LINE_MIN_SCORE = 0.7
     TEXT_PROPOSALS_WIDTH = 16
     MIN_NUM_PROPOSALS = 2

@@ -7,4 +7,4 @@ class Config:
     MIN_RATIO = 0.5
     LINE_MIN_SCORE = 0.7
     TEXT_PROPOSALS_WIDTH = 16
-    MIN_NUM_PROPOSALS = 2
+    MIN_NUM_PROPOSALS = 1

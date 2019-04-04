@@ -7,8 +7,12 @@ import cv2
 import tensorflow as tf
 from sinobot_ctpn.nets import model_train as model
 import numpy as np
+from sinobotocr.my_log import *
 from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from sinobot_ctpn.utils.text_connector.detectors import TextDetector
+
+logger = get_my_logger()
+
 CTPN_MODEL_PATH = "/usr/share/ctpn/model/"
 
 tf.reset_default_graph()
@@ -23,7 +27,9 @@ sess = tf.Session(config=tf.ConfigProto(allow_soft_placement=True))
 ckpt_state = tf.train.get_checkpoint_state(CTPN_MODEL_PATH)
 model_path = os.path.join(CTPN_MODEL_PATH, os.path.basename(ckpt_state.model_checkpoint_path))
 print('Restore from {}'.format(model_path))
+logger.error('-------------------Restore from {}'.format(model_path))
 saver.restore(sess, model_path)
+logger.error("-------------------saver.restore() complete")
 
 def resize_image(img):
     img_size = img.shape

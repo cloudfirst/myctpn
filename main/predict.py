@@ -3,6 +3,8 @@ import os
 import shutil
 import sys
 import time
+import glob
+import xml.etree.ElementTree as ET
 
 import scipy.misc
 import cv2
@@ -14,20 +16,53 @@ from sinobot_ctpn.nets import model_train as model
 from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from sinobot_ctpn.utils.text_connector.detectors import TextDetector
 
-# tf.app.flags.DEFINE_string('test_data_path', '/tmp/demo/', '')
-#tf.app.flags.DEFINE_string('test_data_path', 'data/demo/', '')
-tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/Desktop/vggtest', '')
-#tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/handwriting/tabel', '')
-#tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/luo_ma_ti_cu/tabel', '')
-
-tf.app.flags.DEFINE_string('output_path', '/tmp/res/', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/biao_zhun_ti_xi/res', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/handwriting/res', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/luo_ma_ti_cu/res', '')
-
-tf.app.flags.DEFINE_string('gpu', '0', '')
-tf.app.flags.DEFINE_string('checkpoint_path', 'checkpoints_mlt/', '')
+tf.app.flags.DEFINE_string('test_data_path', '', 'directory path to data to be predicted')
+tf.app.flags.DEFINE_string('output_path', '/tmp/ctpn_predict/', 'directory path to output result')
+tf.app.flags.DEFINE_string('box_output_path', '/tmp/box_output/', 'directory to box')
+tf.app.flags.DEFINE_string('gpu', '0, 1', 'GPU indexes')
+tf.app.flags.DEFINE_string('checkpoint_path', '', 'directory path to store ctpn model')
 FLAGS = tf.app.flags.FLAGS
+
+def xml_to_csv(xml_file, rh, rw):
+
+    xml_list = []
+
+    tree = ET.parse(xml_file)
+    root = tree.getroot()
+
+    # member[4][0].text --> x.min
+    # member[4][1].text --> y.min
+    # member[4][2].text --> x.max
+    # member[4][3].text --> y.max
+    for member in root.findall('object'):
+        value = (float(member[4][0].text) * rw, float(member[4][1].text) * rh,
+                 float(member[4][2].text) * rw, float(member[4][3].text) * rh,
+                 (float(member[4][3].text) - float(member[4][1].text))/2.0 + float(member[4][1].text))
+
+        xml_list.append(value)
+
+    xml_list = sorted(xml_list, key = lambda x: x[4])
+
+    return xml_list 
+
+def find_gt_max_min(co):
+    pred_x = []
+    pred_y = []
+    for xy in co:
+        pred_x.append(xy[0])
+        pred_x.append(xy[2])
+
+        pred_y.append(xy[1])
+        pred_y.append(xy[3])
+    
+    pred_x_min = float(min(pred_x))
+    pred_x_max = float(max(pred_x))
+
+    pred_y_min = float(min(pred_y))
+    pred_y_max = float(max(pred_y))
+    
+    return pred_x_min, pred_y_min, pred_x_max, pred_y_max
+
 
 def save_segment(img, coordinate_box, im_fn, i, base_path):
     x_min = coordinate_box[0][0][0][0]
@@ -78,11 +113,32 @@ def resize_image(img):
     re_im = cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
     return re_im, (new_h / img_size[0], new_w / img_size[1])
 
+def usage():
+    print("python predict.py -h for all available options")
+    print("python predict.py --test_data_path <data path to be predicted>")
+    print("                  --checkpoint_path <model path>")
+    print("                  --output_path <path to predict result>")
 
 def main(argv=None):
+    suc = []
+
+    if not os.path.exists(FLAGS.test_data_path):
+        print("test_data_path is not valide.")
+        usage()
+        return
+    
+    if not os.path.exists(FLAGS.checkpoint_path):
+        print("checkpoint_path is not valide")
+        usage()
+        return
+    
+    if not os.path.exists(FLAGS.box_output_path):
+        os.makedirs(FLAGS.box_output_path)
+
     if os.path.exists(FLAGS.output_path):
         shutil.rmtree(FLAGS.output_path)
     os.makedirs(FLAGS.output_path)
+
     os.environ['CUDA_VISIBLE_DEVICES'] = FLAGS.gpu
 
     with tf.get_default_graph().as_default():
@@ -97,13 +153,14 @@ def main(argv=None):
         saver = tf.train.Saver(variable_averages.variables_to_restore())
 
         with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
-            tf.get_variable_scope().reuse_variables()
             ckpt_state = tf.train.get_checkpoint_state(FLAGS.checkpoint_path)
             model_path = os.path.join(FLAGS.checkpoint_path, os.path.basename(ckpt_state.model_checkpoint_path))
             print('Restore from {}'.format(model_path))
             saver.restore(sess, model_path)
 
             im_fn_list = get_images()
+            return_val = []
+            results = []
             for im_fn in im_fn_list:
                 print('===============')
                 print(im_fn)
@@ -115,6 +172,7 @@ def main(argv=None):
                     continue
 
                 img, (rh, rw) = resize_image(im)
+
                 h, w, c = img.shape
                 im_info = np.array([h, w, c]).reshape([1, 3])
                 bbox_pred_val, cls_prob_val = sess.run([bbox_pred, cls_prob],
@@ -132,12 +190,67 @@ def main(argv=None):
                 cost_time = (time.time() - start)
                 print("cost time: {:.2f}s".format(cost_time))
 
+                gt_cco = []
+                pred_cco = []
                 for i, box in enumerate(boxes):
                     coordinate_box = [box[:8].astype(np.int32).reshape((-1, 1, 2))]
+                    #roi = mmmm(coordinate_box, xml_list, rh)
+                    #return_val.append(roi)
+
+                    '''
+                    if gt_co and gt_co[0]:
+                        gt_cco.append(gt_co[0])
+
+                    if pred_co and pred_co[0]:
+                        pred_cco.append(pred_co[0])
+                    '''
+
+                    #if return_dict:
+                        #return_val.append(return_dict)
+                    
                     #cv2.polylines(img, [box[:8].astype(np.int32).reshape((-1, 1, 2))], True, color=(0, 255, 0),
-                    base_path = '/tmp/temp'
+                    base_path = FLAGS.box_output_path
                     save_segment(img, coordinate_box, im_fn, i, base_path)
                     cv2.polylines(img, coordinate_box, True, color=(0, 255, 0), thickness=2)
+                
+                '''
+                # draw max pred, blue
+                for box in pred_cco:
+                    aaa = np.zeros([4, 1, 2], dtype=np.int32) 
+
+                    aaa[0,0,0] = int(box[0])
+                    aaa[0,0,1] = int(box[1])
+
+                    aaa[1,0,0] = int(box[2])
+                    aaa[1,0,1] = int(box[1])
+
+                    aaa[2,0,0] = int(box[2])
+                    aaa[2,0,1] = int(box[3])
+
+                    aaa[3,0,0] = int(box[0])
+                    aaa[3,0,1] = int(box[3])
+
+                    cv2.polylines(img, [aaa], True, color=(0, 0, 255), thickness=2)
+
+                # draw gt, red 
+                for box in gt_cco:
+                    aaa = np.zeros([4, 1, 2], dtype=np.int32) 
+
+                    aaa[0,0,0] = int(box[0])
+                    aaa[0,0,1] = int(box[1])
+
+                    aaa[1,0,0] = int(box[2])
+                    aaa[1,0,1] = int(box[1])
+
+                    aaa[2,0,0] = int(box[2])
+                    aaa[2,0,1] = int(box[3])
+
+                    aaa[3,0,0] = int(box[0])
+                    aaa[3,0,1] = int(box[3])
+
+                    cv2.polylines(img, [aaa], True, color=(255, 0, 0), thickness=2)
+                '''
+
                 img = cv2.resize(img, None, None, fx=1.0 / rh, fy=1.0 / rw, interpolation=cv2.INTER_LINEAR)
                 cv2.imwrite(os.path.join(FLAGS.output_path, os.path.basename(im_fn)), img[:, :, ::-1])
 

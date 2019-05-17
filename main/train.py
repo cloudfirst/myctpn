@@ -13,7 +13,8 @@ from sinobot_ctpn.utils.dataset import data_provider as data_provider
 tf.app.flags.DEFINE_string('data_path',             'data/dataset/mlt', 'directory path to trained data')
 tf.app.flags.DEFINE_string('checkpoint_path',       'checkpoints_mlt/', 'directory path to save checkpoint')
 tf.app.flags.DEFINE_string('pretrained_model_path', 'data/vgg_16.ckpt', 'directory path to vgg16 model')
-tf.app.flags.DEFINE_string('logs_path',             '/tmp/logs_mlt/', '')
+tf.app.flags.DEFINE_string('logs_path',             '/tmp/logs_mlt/',   'save log ')
+tf.app.flags.DEFINE_boolean('restore',              False,              'False/True train from scratch or exiting model')
 
 tf.app.flags.DEFINE_float('learning_rate', 1e-5, '')
 #tf.app.flags.DEFINE_integer('max_steps', 50000, '')
@@ -25,9 +26,6 @@ tf.app.flags.DEFINE_float('moving_average_decay', 0.997, '')
 tf.app.flags.DEFINE_integer('num_readers', 4, '')
 tf.app.flags.DEFINE_string('gpu', '0,1', '')
 
-
-#tf.app.flags.DEFINE_boolean('restore', True, '')
-tf.app.flags.DEFINE_boolean('restore', False, '')
 #tf.app.flags.DEFINE_integer('save_checkpoint_steps', 2000, '')
 tf.app.flags.DEFINE_integer('save_checkpoint_steps', 100, '')
 FLAGS = tf.app.flags.FLAGS
@@ -38,6 +36,7 @@ def usage():
     print("                --checkpoint_path <checkpoint path>")
     print("                --pretrained_model_path <path to vgg16 model file>")
     print("                --max_steps 8000")
+    print("                --restore False")
 
 def main(argv=None):
     if not os.path.exists(FLAGS.data_path):

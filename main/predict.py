@@ -3,6 +3,8 @@ import os
 import shutil
 import sys
 import time
+import glob
+import xml.etree.ElementTree as ET
 
 import scipy.misc
 import cv2
@@ -14,19 +16,11 @@ from sinobot_ctpn.nets import model_train as model
 from sinobot_ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from sinobot_ctpn.utils.text_connector.detectors import TextDetector
 
-# tf.app.flags.DEFINE_string('test_data_path', '/tmp/demo/', '')
-#tf.app.flags.DEFINE_string('test_data_path', 'data/demo/', '')
-tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/Desktop/vggtest', '')
-#tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/handwriting/tabel', '')
-#tf.app.flags.DEFINE_string('test_data_path', '/home/luhya/ctpn_test/test_data/number/luo_ma_ti_cu/tabel', '')
-
-tf.app.flags.DEFINE_string('output_path', '/tmp/res/', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/biao_zhun_ti_xi/res', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/handwriting/res', '')
-#tf.app.flags.DEFINE_string('output_path', '/home/luhya/ctpn_test/test_data/number/luo_ma_ti_cu/res', '')
-
-tf.app.flags.DEFINE_string('gpu', '0', '')
-tf.app.flags.DEFINE_string('checkpoint_path', 'checkpoints_mlt/', '')
+tf.app.flags.DEFINE_string('test_data_path', '', 'directory path to data to be predicted')
+tf.app.flags.DEFINE_string('output_path', '/tmp/ctpn_predict/', 'directory path to output result')
+tf.app.flags.DEFINE_string('box_output_path', '/tmp/box_output/', 'directory to box')
+tf.app.flags.DEFINE_string('gpu', '0, 1', 'GPU indexes')
+tf.app.flags.DEFINE_string('checkpoint_path', '', 'directory path to store ctpn model')
 FLAGS = tf.app.flags.FLAGS
 
 def save_segment(img, coordinate_box, im_fn, i, base_path):
@@ -78,11 +72,30 @@ def resize_image(img):
     re_im = cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
     return re_im, (new_h / img_size[0], new_w / img_size[1])
 
+def usage():
+    print("python predict.py -h for all available options")
+    print("python predict.py --test_data_path <data path to be predicted>")
+    print("                  --checkpoint_path <model path>")
+    print("                  --output_path <path to predict result>")
 
 def main(argv=None):
+    if not os.path.exists(FLAGS.test_data_path):
+        print("test_data_path is not valide.")
+        usage()
+        return
+    
+    if not os.path.exists(FLAGS.checkpoint_path):
+        print("checkpoint_path is not valide")
+        usage()
+        return
+    
+    if not os.path.exists(FLAGS.box_output_path):
+        os.makedirs(FLAGS.box_output_path)
+
     if os.path.exists(FLAGS.output_path):
         shutil.rmtree(FLAGS.output_path)
     os.makedirs(FLAGS.output_path)
+
     os.environ['CUDA_VISIBLE_DEVICES'] = FLAGS.gpu
 
     with tf.get_default_graph().as_default():
@@ -104,6 +117,8 @@ def main(argv=None):
             saver.restore(sess, model_path)
 
             im_fn_list = get_images()
+            return_val = []
+            results = []
             for im_fn in im_fn_list:
                 print('===============')
                 print(im_fn)
@@ -115,6 +130,7 @@ def main(argv=None):
                     continue
 
                 img, (rh, rw) = resize_image(im)
+
                 h, w, c = img.shape
                 im_info = np.array([h, w, c]).reshape([1, 3])
                 bbox_pred_val, cls_prob_val = sess.run([bbox_pred, cls_prob],
@@ -134,10 +150,10 @@ def main(argv=None):
 
                 for i, box in enumerate(boxes):
                     coordinate_box = [box[:8].astype(np.int32).reshape((-1, 1, 2))]
-                    #cv2.polylines(img, [box[:8].astype(np.int32).reshape((-1, 1, 2))], True, color=(0, 255, 0),
-                    base_path = '/tmp/temp'
+                    base_path = FLAGS.box_output_path
                     save_segment(img, coordinate_box, im_fn, i, base_path)
                     cv2.polylines(img, coordinate_box, True, color=(0, 255, 0), thickness=2)
+                
                 img = cv2.resize(img, None, None, fx=1.0 / rh, fy=1.0 / rw, interpolation=cv2.INTER_LINEAR)
                 cv2.imwrite(os.path.join(FLAGS.output_path, os.path.basename(im_fn)), img[:, :, ::-1])
 
